@@ -36,7 +36,7 @@ export const Footer: React.FC = () => {
               <div className="w-[1px] h-8 bg-stone-700"></div>
               <div>
                 <span className="block font-serif text-xl text-[#a58d70]">{BRAND_INFO.rating} ★</span>
-                <span className="text-[10px] uppercase tracking-wider text-stone-500">Connoisseur Index</span>
+                <span className="text-[10px] uppercase tracking-wider text-stone-500">Customer Rating</span>
               </div>
             </div>
           </div>
@@ -44,32 +44,32 @@ export const Footer: React.FC = () => {
           {/* Column 2: Navigation Links */}
           <div className="space-y-4">
             <h4 className="text-xs uppercase tracking-[0.25em] text-[#a58d70] font-medium">
-              Atelier Directory
+              Quick Links
             </h4>
             <ul className="space-y-2.5 text-xs text-stone-300 font-light tracking-wide">
               <li>
                 <Link to="/" className="hover:text-[#a58d70] transition-colors">
-                  01. The Atelier Homepage
+                  01. Home
                 </Link>
               </li>
               <li>
                 <Link to="/about-us" className="hover:text-[#a58d70] transition-colors">
-                  02. Culinary Philosophy & Heritage
+                  02. About FoodOnFire
                 </Link>
               </li>
               <li>
                 <Link to="/menu" className="hover:text-[#a58d70] transition-colors">
-                  03. Digital Menu & Package Atelier
+                  03. Catering Menu & Packages
                 </Link>
               </li>
               <li>
-                <Link to="/my-selection" className="hover:text-[#a58d70] transition-colors">
-                  04. My Selection & Order Proposal
+                <Link to="/gallery" className="hover:text-[#a58d70] transition-colors">
+                  04. Event & Food Gallery
                 </Link>
               </li>
               <li>
                 <Link to="/contact-us" className="hover:text-[#a58d70] transition-colors">
-                  05. Direct Concierge & Consultations
+                  05. Contact & Booking
                 </Link>
               </li>
             </ul>
@@ -78,13 +78,13 @@ export const Footer: React.FC = () => {
           {/* Column 3: Headquarters & Direct Touch */}
           <div className="space-y-4">
             <h4 className="text-xs uppercase tracking-[0.25em] text-[#a58d70] font-medium">
-              Royal Concierge Desk
+              Catering Bookings & Inquiries
             </h4>
             <div className="space-y-3 text-xs text-stone-300 font-light">
               <div className="flex items-start gap-2.5">
                 <MapPin className="w-4 h-4 text-[#a58d70] shrink-0 mt-0.5" />
                 <span>
-                  <strong>Atelier Headquarters:</strong><br />
+                  <strong>Office & Catering Headquarters:</strong><br />
                   {BRAND_INFO.headquarters}
                 </span>
               </div>
@@ -105,13 +105,13 @@ export const Footer: React.FC = () => {
             <div className="pt-2">
               <a
                 href={`https://wa.me/${BRAND_INFO.whatsappRaw}?text=${encodeURIComponent(
-                  'Hello FoodOnFire Concierge, I would like to inquire about event catering dates for an upcoming celebration.'
+                  'Hello FoodOnFire, I would like to inquire about event catering dates for an upcoming celebration.'
                 )}`}
                 target="_blank"
                 rel="noopener noreferrer"
                 className="inline-flex items-center gap-2 px-3.5 py-1.5 border border-[#a58d70]/60 text-[#a58d70] text-[11px] tracking-wider uppercase hover:bg-[#a58d70] hover:text-[#171612] transition-colors"
               >
-                <span>WhatsApp Private Line</span>
+                <span>Chat on WhatsApp</span>
               </a>
             </div>
           </div>
@@ -119,7 +119,7 @@ export const Footer: React.FC = () => {
           {/* Column 4: Standards & Protocols */}
           <div className="space-y-4">
             <h4 className="text-xs uppercase tracking-[0.25em] text-[#a58d70] font-medium">
-              Banqueting Protocols
+              Our Quality Standards
             </h4>
             <div className="space-y-2.5 text-xs text-stone-400 font-light">
               <div className="flex items-start gap-2">

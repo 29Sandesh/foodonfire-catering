@@ -263,14 +263,14 @@ export const CartProvider: React.FC<{ children: React.ReactNode }> = ({ children
 
   const generateWhatsAppUrl = (): string => {
     const lines: string[] = [];
-    lines.push(`*FOODONFIRE • ROYAL BANQUET DOSSIER & SELECTION*`);
+    lines.push(`*FOODONFIRE • EVENT CATERING ORDER & SELECTION*`);
     lines.push(`━━━━━━━━━━━━━━━━━━━━━━━━━━━━━`);
-    lines.push(`*CLIENT:* ${eventParams.clientName || 'Private Patron'}`);
+    lines.push(`*CLIENT:* ${eventParams.clientName || 'Guest'}`);
     if (eventParams.clientPhone) lines.push(`*PHONE:* ${eventParams.clientPhone}`);
     if (eventParams.clientEmail) lines.push(`*EMAIL:* ${eventParams.clientEmail}`);
     if (eventParams.clientOrganization) lines.push(`*HOUSE / ORG:* ${eventParams.clientOrganization}`);
-    lines.push(`*GUEST COUNT:* ${eventParams.guestCount} Connoisseurs`);
-    lines.push(`*SERVICE ARCHITECTURE:* ${eventParams.serviceStyle.toUpperCase()}`);
+    lines.push(`*GUEST COUNT:* ${eventParams.guestCount} Guests`);
+    lines.push(`*SERVICE STYLE:* ${eventParams.serviceStyle.toUpperCase()}`);
     if (eventParams.targetDate) lines.push(`*EVENT DATE:* ${eventParams.targetDate}`);
     if (eventParams.venueDestination) lines.push(`*DESTINATION / VENUE:* ${eventParams.venueDestination}`);
     lines.push(``);
@@ -282,7 +282,7 @@ export const CartProvider: React.FC<{ children: React.ReactNode }> = ({ children
       lines.push(`• Rate: ₹${selectedPackage.pricePerHead.toLocaleString('en-IN')}/head (+18% GST)`);
       lines.push(`• Min Guests: ${selectedPackage.minGuests}`);
       lines.push(``);
-      lines.push(`*PROSPECTUS PACKAGE INCLUSIONS:*`);
+      lines.push(`*PACKAGE INCLUSIONS:*`);
       selectedPackage.inclusions.forEach((inc, idx) => {
         lines.push(`  ${idx + 1}. ${inc}`);
       });
@@ -311,14 +311,14 @@ export const CartProvider: React.FC<{ children: React.ReactNode }> = ({ children
     }
 
     if (items.length > 0) {
-      lines.push(`*CURATED SPECIALTY DISHES SHORTLIST (${items.length} Offerings):*`);
+      lines.push(`*SELECTED DISHES (${items.length} Items):*`);
       items.forEach((item, index) => {
         const dietTag = item.dish.diet === 'nv' ? '[NON-VEG]' : item.dish.diet === 'v' ? '[VEG]' : '[VEGAN]';
         lines.push(`${index + 1}. *${item.dish.name}* ${dietTag}`);
         if (item.dish.description) {
           lines.push(`   Description: ${item.dish.description}`);
         }
-        lines.push(`   Category: ${item.dish.courseTag} • Provenance: ${item.dish.provenance}`);
+        lines.push(`   Category: ${item.dish.courseTag}`);
         if (item.portions > 1) {
           lines.push(`   Multiplier: ${item.portions}x`);
         }
@@ -327,13 +327,13 @@ export const CartProvider: React.FC<{ children: React.ReactNode }> = ({ children
     }
 
     if (eventParams.dietaryNotes) {
-      lines.push(`*SPECIAL INSTRUCTIONS & DIETARY PROTOCOLS:*`);
+      lines.push(`*SPECIAL INSTRUCTIONS & DIETARY REQUESTS:*`);
       lines.push(`"${eventParams.dietaryNotes}"`);
       lines.push(``);
     }
 
     lines.push(`━━━━━━━━━━━━━━━━━━━━━━━━━━━━━`);
-    lines.push(`*FINANCIAL ESTIMATE SUMMARY:*`);
+    lines.push(`*ESTIMATE SUMMARY:*`);
     if (selectedPackage) {
       lines.push(`• Package Base: ₹${packageBase.toLocaleString('en-IN')}`);
     }
@@ -342,11 +342,11 @@ export const CartProvider: React.FC<{ children: React.ReactNode }> = ({ children
     }
     lines.push(`• Subtotal: ₹${subtotal.toLocaleString('en-IN')}`);
     lines.push(`• GST @ 18%: ₹${gstAmount.toLocaleString('en-IN')}`);
-    lines.push(`*GRAND PROPOSAL TOTAL:* ₹${grandTotal.toLocaleString('en-IN')}`);
-    lines.push(`*(Effective ₹${effectivePerHead.toLocaleString('en-IN')} / Connoisseur all-inclusive)*`);
+    lines.push(`*TOTAL ESTIMATE:* ₹${grandTotal.toLocaleString('en-IN')}`);
+    lines.push(`*(Effective ₹${effectivePerHead.toLocaleString('en-IN')} / Guest all-inclusive)*`);
     lines.push(``);
-    lines.push(`Sent via FoodOnFire Haute Gastronomie Digital Atelier.`);
-    lines.push(`Concierge Desk: ${BRAND_INFO.conciergePhone} • Pan-India`);
+    lines.push(`Sent via FoodOnFire Royal Catering.`);
+    lines.push(`Booking Desk: ${BRAND_INFO.conciergePhone} • All Over India`);
 
     const fullMessage = lines.join('\n');
     return `https://wa.me/${BRAND_INFO.whatsappRaw}?text=${encodeURIComponent(fullMessage)}`;

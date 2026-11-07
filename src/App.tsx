@@ -7,6 +7,7 @@ import { FloatingSelectionBar } from './components/FloatingSelectionBar';
 import { HomePage } from './pages/HomePage';
 import { AboutPage } from './pages/AboutPage';
 import { MenuPage } from './pages/MenuPage';
+import { GalleryPage } from './pages/GalleryPage';
 import { SelectionPage } from './pages/SelectionPage';
 import { ContactPage } from './pages/ContactPage';
 
@@ -31,6 +32,7 @@ export const App: React.FC = () => {
               <Route path="/" element={<HomePage />} />
               <Route path="/about-us" element={<AboutPage />} />
               <Route path="/menu" element={<MenuPage />} />
+              <Route path="/gallery" element={<GalleryPage />} />
               <Route path="/my-selection" element={<SelectionPage />} />
               <Route path="/contact-us" element={<ContactPage />} />
               <Route path="*" element={<HomePage />} />

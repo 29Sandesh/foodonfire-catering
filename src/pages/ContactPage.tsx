@@ -44,16 +44,16 @@ Requesting private menu consultation and tasting appointment.`;
         {/* Header */}
         <div className="max-w-3xl mx-auto text-center space-y-3 mb-16">
           <span className="text-[10px] uppercase tracking-[0.25em] text-[#6f5b41] font-semibold block">
-            Direct Banqueting Directorate
+            Get In Touch
           </span>
           <span className="font-script text-4xl sm:text-5xl text-[#a58d70] block font-normal -mb-2">
-            The Private Concierge
+            Contact Food On Fire
           </span>
           <h1 className="font-serif text-4xl sm:text-6xl font-normal text-[#1d1c16] tracking-tight">
-            Initiate Your Consultation
+            Book Catering For Your Event
           </h1>
           <p className="text-stone-600 text-xs sm:text-base font-light leading-relaxed pt-1">
-            Every banquet is personally overseen by our culinary directorate. Connect with our concierge to arrange bespoke menu tastings, date holds, and tablescape previews.
+            We are here to help you plan the perfect menu. Call us, message on WhatsApp, or send an inquiry below to check availability and get a quote.
           </p>
         </div>
 
@@ -62,17 +62,17 @@ Requesting private menu consultation and tasting appointment.`;
           <div className="lg:col-span-5 space-y-6">
             <div className="bg-[#12110e] text-[#fef9ef] border border-[#2d2921] p-8 sm:p-9 space-y-6 shadow-2xl relative">
               <span className="font-script text-3xl text-[#c5a880] block -mb-2">
-                Atelier Coordinates
+                Our Contact Details
               </span>
               <span className="text-[10px] uppercase tracking-[0.2em] text-stone-400 font-semibold block">
-                Central Hearth & Desk
+                Headquarters & Phone
               </span>
 
               <div className="space-y-5 text-xs text-stone-300">
                 <div className="flex items-start gap-3.5">
                   <MapPin className="w-5 h-5 text-[#c5a880] shrink-0 mt-0.5" />
                   <div>
-                    <strong className="text-[#fef9ef] block font-serif text-base">Headquarters & Central Hearth:</strong>
+                    <strong className="text-[#fef9ef] block font-serif text-base">Office & Central Kitchen:</strong>
                     <span>{BRAND_INFO.headquarters}</span>
                     <span className="block text-stone-400 mt-1">Branch: {BRAND_INFO.branch}</span>
                   </div>
@@ -81,7 +81,7 @@ Requesting private menu consultation and tasting appointment.`;
                 <div className="flex items-start gap-3.5">
                   <Phone className="w-5 h-5 text-[#c5a880] shrink-0 mt-0.5" />
                   <div>
-                    <strong className="text-[#fef9ef] block font-serif text-base">Concierge Line / WhatsApp:</strong>
+                    <strong className="text-[#fef9ef] block font-serif text-base">Call / WhatsApp Booking Line:</strong>
                     <a
                       href={`tel:${BRAND_INFO.conciergePhone}`}
                       className="text-stone-200 hover:text-[#c5a880] transition-colors font-serif text-lg tracking-wide"
@@ -94,7 +94,7 @@ Requesting private menu consultation and tasting appointment.`;
                 <div className="flex items-start gap-3.5">
                   <Mail className="w-5 h-5 text-[#c5a880] shrink-0 mt-0.5" />
                   <div>
-                    <strong className="text-[#fef9ef] block font-serif text-base">Electronic Correspondence:</strong>
+                    <strong className="text-[#fef9ef] block font-serif text-base">Email Us:</strong>
                     <span className="text-stone-300">{BRAND_INFO.email}</span>
                   </div>
                 </div>
@@ -102,7 +102,7 @@ Requesting private menu consultation and tasting appointment.`;
                 <div className="flex items-start gap-3.5">
                   <Clock className="w-5 h-5 text-[#c5a880] shrink-0 mt-0.5" />
                   <div>
-                    <strong className="text-[#fef9ef] block font-serif text-base">Consultation Hours:</strong>
+                    <strong className="text-[#fef9ef] block font-serif text-base">Office Hours:</strong>
                     <span>Monday through Sunday, 10:00 AM – 9:00 PM IST</span>
                   </div>
                 </div>
@@ -111,13 +111,13 @@ Requesting private menu consultation and tasting appointment.`;
               <div className="pt-4 border-t border-stone-800">
                 <a
                   href={`https://wa.me/${BRAND_INFO.whatsappRaw}?text=${encodeURIComponent(
-                    'Hello FoodOnFire Concierge, I would like to schedule a private banqueting consultation.'
+                    'Hello FoodOnFire, I would like to inquire about event catering.'
                   )}`}
                   target="_blank"
                   rel="noopener noreferrer"
                   className="w-full inline-flex items-center justify-center gap-2 py-3.5 bg-[#c5a880] text-[#12110e] text-xs uppercase tracking-wider font-medium hover:bg-white transition-colors"
                 >
-                  <span>Open WhatsApp Direct Chat</span>
+                  <span>Chat on WhatsApp</span>
                 </a>
               </div>
             </div>
@@ -136,13 +136,13 @@ Requesting private menu consultation and tasting appointment.`;
           {/* Right Column: Interactive Consultation Booking Form (WARM IVORY CANVAS) */}
           <div className="lg:col-span-7 bg-white border border-[#d0c4b9] p-8 sm:p-10 shadow-sm">
             <span className="font-script text-3xl sm:text-4xl text-[#6f5b41] block -mb-2">
-              Bespoke Banqueting
+              Plan Your Event
             </span>
             <h3 className="font-serif text-2xl text-[#1d1c16] mb-2">
-              Inquiry Docket
+              Event Booking Form
             </h3>
             <p className="text-xs text-stone-500 font-light mb-8">
-              Complete the parameters below. You may either submit online or dispatch directly to our concierge via WhatsApp.
+              Fill in your event details below. You can submit directly online or message us on WhatsApp.
             </p>
 
             {submitted ? (
@@ -150,9 +150,9 @@ Requesting private menu consultation and tasting appointment.`;
                 <div className="w-12 h-12 rounded-full bg-emerald-100 text-emerald-800 flex items-center justify-center mx-auto">
                   <CheckCircle className="w-6 h-6" />
                 </div>
-                <h4 className="font-serif text-2xl text-stone-900">Inquiry Docket Received</h4>
+                <h4 className="font-serif text-2xl text-stone-900">Booking Request Received</h4>
                 <p className="text-xs text-stone-600 max-w-md mx-auto font-light">
-                  Our Executive Concierge will reach out within 4 business hours to discuss your event architecture and coordinate a menu tasting appointment.
+                  Our catering team will contact you within 4 hours to discuss your menu options, guest count, and pricing.
                 </p>
                 <div className="pt-4">
                   <a

@@ -10,9 +10,10 @@ export const Navbar: React.FC = () => {
   const { totalDishItemsCount, isVegOnly, toggleVegOnly } = useCart();
 
   const navLinks = [
-    { label: 'ATELIER', sub: '', path: '/' },
-    { label: 'ABOUT FOF', sub: 'FoodOnFire', path: '/about-us' },
-    { label: 'DIGITAL MENU', sub: '', path: '/menu' },
+    { label: 'HOME', sub: '', path: '/' },
+    { label: 'ABOUT US', sub: 'FoodOnFire', path: '/about-us' },
+    { label: 'MENU', sub: '', path: '/menu' },
+    { label: 'GALLERY', sub: '', path: '/gallery' },
     { label: 'CONTACT', sub: '', path: '/contact-us' },
   ];
 
@@ -25,15 +26,15 @@ export const Navbar: React.FC = () => {
     <header className="sticky top-0 z-50 bg-[#fef9ef]/95 backdrop-blur-md border-b border-[#d0c4b9]/60 transition-all">
       {/* Top Announcement Bar */}
       <div className="bg-[#12110e] text-[#fef9ef] text-[10px] tracking-[0.22em] uppercase py-1.5 px-4 text-center font-medium flex items-center justify-center gap-3 sm:gap-4">
-        <span className="hidden sm:inline">ROYAL BANQUETING & ARCHIVAL HAUTE GASTRONOMIE</span>
+        <span className="hidden sm:inline">ROYAL CATERING & WEDDING BANQUETS</span>
         <span className="inline-block w-1.5 h-1.5 rounded-full bg-[#c5a880]"></span>
-        <span>PAN-INDIA & DESTINATION CELEBRATIONS</span>
+        <span>ALL OVER INDIA</span>
         <span className="hidden md:inline-block w-1.5 h-1.5 rounded-full bg-[#c5a880]"></span>
         <a 
           href={`tel:${BRAND_INFO.conciergePhone}`} 
           className="hidden md:inline hover:text-[#c5a880] transition-colors"
         >
-          CONCIERGE DESK: {BRAND_INFO.conciergePhone}
+          CALL US: {BRAND_INFO.conciergePhone}
         </a>
       </div>
 
@@ -220,7 +221,7 @@ export const Navbar: React.FC = () => {
 
           <div className="pt-4 border-t border-stone-200">
             <p className="text-[11px] uppercase tracking-wider text-stone-500 mb-1">
-              Concierge Line
+              Direct Booking Phone
             </p>
             <a
               href={`tel:${BRAND_INFO.conciergePhone}`}
@@ -229,7 +230,7 @@ export const Navbar: React.FC = () => {
               {BRAND_INFO.conciergePhone}
             </a>
             <p className="text-xs text-stone-500 mt-1">
-              Royal Banqueting Across India
+              Royal Catering Across India
             </p>
           </div>
         </div>

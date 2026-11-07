@@ -109,7 +109,7 @@ export const HomePage: React.FC = () => {
           <div className="max-w-xl lg:max-w-2xl space-y-5 sm:space-y-6">
             <div className="inline-flex items-center gap-2 px-3 py-1 border border-[#a58d70]/40 bg-[#fef9ef]/80 backdrop-blur-sm text-[#6f5b41] text-[10px] sm:text-xs uppercase tracking-[0.25em]">
               <Flame className="w-3.5 h-3.5 text-[#6f5b41]" />
-              <span>Haute Gastronomie • Pan-India</span>
+              <span>Luxury Catering • All Over India</span>
             </div>
 
             <div className="space-y-1">
@@ -117,13 +117,13 @@ export const HomePage: React.FC = () => {
                 The Art of Sacred Embers
               </span>
               <h1 className="font-serif text-3xl sm:text-5xl lg:text-6xl leading-[1.1] text-[#1d1c16] font-normal tracking-tight">
-                Bespoke banqueting for <span className="italic font-light text-[#6f5b41]">extraordinary</span> celebrations.
+                Luxury catering for <span className="italic font-light text-[#6f5b41]">unforgettable</span> celebrations.
               </h1>
             </div>
 
             <p className="text-stone-700 text-xs sm:text-sm lg:text-base max-w-xl font-light leading-relaxed">
-              Where centuries-old Awadhi and Mughlai hearth traditions meet contemporary tablescape minimalism. 
-              We curate transcendent dining experiences for destination weddings, luxury soirees, and prestigious gatherings across India and beyond.
+              Authentic royal Awadhi and Mughlai catering for grand weddings, luxury parties, and celebrations across India. 
+              We bring live charcoal sigdi cooking, royal buffet setups, and freshly prepared food to your special day.
             </p>
 
             <div className="pt-2 flex flex-col sm:flex-row items-stretch sm:items-center gap-4">
@@ -131,7 +131,7 @@ export const HomePage: React.FC = () => {
                 to="/menu"
                 className="inline-flex items-center justify-center gap-3 px-7 py-3.5 bg-[#1d1c16] text-[#fef9ef] text-xs uppercase tracking-[0.2em] font-medium hover:bg-[#6f5b41] transition-all duration-300 group shadow-md"
               >
-                <span>Curate Your Menu</span>
+                <span>View Menu & Packages</span>
                 <ArrowRight className="w-4 h-4 text-[#a58d70] group-hover:translate-x-1.5 transition-transform" />
               </Link>
               
@@ -153,15 +153,15 @@ export const HomePage: React.FC = () => {
             <div className="pt-6 border-t border-[#d0c4b9]/60 grid grid-cols-3 gap-4 text-stone-800 max-w-lg">
               <div>
                 <p className="font-serif text-2xl sm:text-3xl font-normal text-[#1d1c16]">25+</p>
-                <p className="text-[10px] uppercase tracking-wider text-stone-600 mt-0.5 font-medium">Years of Lineage</p>
+                <p className="text-[10px] uppercase tracking-wider text-stone-600 mt-0.5 font-medium">Years Experience</p>
               </div>
               <div>
                 <p className="font-serif text-2xl sm:text-3xl font-normal text-[#1d1c16]">500+</p>
-                <p className="text-[10px] uppercase tracking-wider text-stone-600 mt-0.5 font-medium">Royal Banquets</p>
+                <p className="text-[10px] uppercase tracking-wider text-stone-600 mt-0.5 font-medium">Events Catered</p>
               </div>
               <div>
                 <p className="font-serif text-2xl sm:text-3xl font-normal text-[#1d1c16]">100%</p>
-                <p className="text-[10px] uppercase tracking-wider text-stone-600 mt-0.5 font-medium">Custom Formulations</p>
+                <p className="text-[10px] uppercase tracking-wider text-stone-600 mt-0.5 font-medium">Fresh & Authentic</p>
               </div>
             </div>
           </div>
@@ -178,17 +178,17 @@ export const HomePage: React.FC = () => {
         <div className="max-w-7xl mx-auto relative z-10">
           <div className="text-center max-w-3xl mx-auto space-y-3 mb-16">
             <span className="font-script text-4xl sm:text-5xl text-[#c5a880] block font-normal -mb-2">
-              The Sacred Craft
+              The Secret Behind Our Food
             </span>
             <span className="text-[10px] uppercase tracking-[0.3em] text-stone-400 font-medium block">
-              The Three Master Disciplines
+              Our 3 Cooking Principles
             </span>
             <h2 className="font-serif text-3xl sm:text-5xl lg:text-6xl font-normal text-[#fef9ef] tracking-tight">
-              The Alchemy of Fire & Flavour
+              Authentic Taste & Fresh Cooking
             </h2>
             <div className="w-16 h-[1.5px] bg-[#c5a880]/60 mx-auto mt-3"></div>
             <p className="text-stone-300 text-xs sm:text-sm lg:text-base font-light max-w-2xl mx-auto leading-relaxed pt-2">
-              Banqueting is an ancient ceremonial art. We shun mass industrial shortcuts, keeping the sacred flame alive through three uncompromising culinary disciplines.
+              Great catering comes from patience and authentic methods. We don't use ready-made pastes or mass shortcuts. Every dish is cooked fresh with real ingredients.
             </p>
           </div>
 
@@ -205,7 +205,7 @@ export const HomePage: React.FC = () => {
                 <div className="absolute inset-0 bg-gradient-to-t from-[#181713] via-[#181713]/40 to-transparent"></div>
                 <div className="absolute top-4 left-4">
                   <span className="font-script text-3xl text-[#c5a880] block">
-                    Discipline I
+                    Principle 01
                   </span>
                 </div>
                 <div className="absolute bottom-3 left-4 right-4">
@@ -213,18 +213,18 @@ export const HomePage: React.FC = () => {
                     Clay Sealed Handis
                   </span>
                   <h3 className="font-serif text-2xl text-white">
-                    Slow Hardwood Dum Pukht
+                    Slow Dum Cooking
                   </h3>
                 </div>
               </div>
 
               <div className="p-6 pt-2 space-y-4">
                 <p className="text-xs text-stone-300 font-light leading-relaxed">
-                  Earthen deghs and handis sealed with kneaded dough ribbons to trap sacred aromatics. Meats braise gently in their natural marrow and pure ghee over 14 continuous hours without open flames.
+                  Clay pots sealed with dough to lock in real aroma and taste. Meats and gravies cook slowly in their own juices until completely tender.
                 </p>
                 <div className="pt-3 border-t border-stone-800 flex items-center justify-between text-[10px] uppercase tracking-wider text-stone-400">
-                  <span>Awadhi Dum Tradition</span>
-                  <span className="text-[#c5a880]">Tableside Seal Break</span>
+                  <span>Royal Awadhi Dum</span>
+                  <span className="text-[#c5a880]">Tableside Handi Opening</span>
                 </div>
               </div>
             </div>
@@ -240,26 +240,26 @@ export const HomePage: React.FC = () => {
                 <div className="absolute inset-0 bg-gradient-to-t from-[#181713] via-[#181713]/40 to-transparent"></div>
                 <div className="absolute top-4 left-4">
                   <span className="font-script text-3xl text-[#c5a880] block">
-                    Discipline II
+                    Principle 02
                   </span>
                 </div>
                 <div className="absolute bottom-3 left-4 right-4">
                   <span className="text-[10px] uppercase tracking-[0.2em] text-[#c5a880] block">
-                    Single-Origin Herbs
+                    Real Whole Spices
                   </span>
                   <h3 className="font-serif text-2xl text-white">
-                    Pristine Spice Provenance
+                    100% Pure Spices
                   </h3>
                 </div>
               </div>
 
               <div className="p-6 pt-2 space-y-4">
                 <p className="text-xs text-stone-300 font-light leading-relaxed">
-                  First-harvest Kashmiri Mongra saffron, hand-foraged Himalayan gucchi morels, wild fennel pollen, and stone-pressed mustard oils. We use zero artificial colors, MSG, or frozen bases.
+                  Real Kashmiri Mongra saffron, green cardamom, and stone-pressed mustard oil. We never use artificial food colors, MSG, or frozen bases.
                 </p>
                 <div className="pt-3 border-t border-stone-800 flex items-center justify-between text-[10px] uppercase tracking-wider text-stone-400">
-                  <span>Pampore & Himalaya</span>
-                  <span className="text-[#c5a880]">Hand-Pounded Masalas</span>
+                  <span>Kashmir & Malwa</span>
+                  <span className="text-[#c5a880]">Freshly Ground Masalas</span>
                 </div>
               </div>
             </div>
@@ -275,26 +275,26 @@ export const HomePage: React.FC = () => {
                 <div className="absolute inset-0 bg-gradient-to-t from-[#181713] via-[#181713]/40 to-transparent"></div>
                 <div className="absolute top-4 left-4">
                   <span className="font-script text-3xl text-[#c5a880] block">
-                    Discipline III
+                    Principle 03
                   </span>
                 </div>
                 <div className="absolute bottom-3 left-4 right-4">
                   <span className="text-[10px] uppercase tracking-[0.2em] text-[#c5a880] block">
-                    Theatrical Grandeur
+                    Royal Hospitality
                   </span>
                   <h3 className="font-serif text-2xl text-white">
-                    Silver-Glove Ceremony
+                    Live Counters & Royal Service
                   </h3>
                 </div>
               </div>
 
               <div className="p-6 pt-2 space-y-4">
                 <p className="text-xs text-stone-300 font-light leading-relaxed">
-                  Uniformed master khansamas and white-glove attendants. Live robata skewers, smoking sigdi passes, tableside cloche unliftings, and bespoke hammered brass chafers bring royal theatre to life.
+                  Well-dressed professional catering staff, live charcoal sigdi grills, and hot fresh food served with warmth and royal courtesy to every guest.
                 </p>
                 <div className="pt-3 border-t border-stone-800 flex items-center justify-between text-[10px] uppercase tracking-wider text-stone-400">
-                  <span>Fine-Dining Precision</span>
-                  <span className="text-[#c5a880]">Live Ember Theatrics</span>
+                  <span>Trained Staff</span>
+                  <span className="text-[#c5a880]">Live Charcoal Theatrics</span>
                 </div>
               </div>
             </div>
@@ -309,7 +309,7 @@ export const HomePage: React.FC = () => {
         <div className="max-w-7xl mx-auto">
           <div className="text-center max-w-3xl mx-auto space-y-3 mb-16">
             <span className="text-[10px] uppercase tracking-[0.28em] text-[#6f5b41] font-semibold block">
-              Bespoke Commissions & Event Formats
+              Catering For Every Occasion
             </span>
             <span className="font-script text-4xl sm:text-5xl text-[#a58d70] block font-normal -mb-2">
               Celebrations of Every Scale
@@ -319,7 +319,7 @@ export const HomePage: React.FC = () => {
             </h2>
             <div className="w-16 h-[1.5px] bg-[#6f5b41]/60 mx-auto mt-3"></div>
             <p className="text-stone-600 text-xs sm:text-sm lg:text-base font-light max-w-2xl mx-auto leading-relaxed pt-2">
-              From grand royal destination palaces to private estate hearths, FoodOnFire orchestrates bespoke dining ceremonies across 9 distinguished event formats.
+              From grand royal destination weddings to private home dinners, FoodOnFire serves hot, freshly prepared royal food for all celebrations.
             </p>
           </div>
 
@@ -329,56 +329,56 @@ export const HomePage: React.FC = () => {
               {
                 num: '01',
                 title: 'LUXURY WEDDINGS',
-                tag: 'Multi-Day Celebrations',
-                desc: 'Grand multi-day matrimonial banquets, sangeet live bazaars, and royal wedding dastarkhwans orchestrated with precision anywhere in India.',
+                tag: 'Grand Weddings',
+                desc: 'Grand multi-day wedding banquets, live food counters for sangeet, and royal feasts managed with perfection anywhere in India.',
               },
               {
                 num: '02',
                 title: 'ELEGANT SIT-DOWN DINING',
-                tag: 'Silver-Glove Degustation',
-                desc: 'Synchronized multi-course plated dining featuring custom engraved menus, sommelier pairings, and tableside silver-cloche service.',
+                tag: 'Sit-Down Dinners',
+                desc: 'Plated multi-course sit-down dinner with professional table service, custom menu cards, and warm hospitality.',
               },
               {
                 num: '03',
                 title: 'BESPOKE REQUIREMENTS',
-                tag: 'Archival & Curated',
-                desc: 'Customized gastronomic concepts, rare ingredient sourcing, and recreating cherished ancestral family heirloom recipes with our master khansama.',
+                tag: 'Custom Menus',
+                desc: 'Customized menu concepts, special dishes, and recreating your favorite family recipes with our master chefs.',
               },
               {
                 num: '04',
                 title: 'CORPORATE GATHERINGS',
-                tag: 'Sovereign Summits',
-                desc: 'Prestigious executive luncheons, corporate galas, and diplomatic conclaves managed with seamless discretion and royal hospitality.',
+                tag: 'Corporate Events',
+                desc: 'Executive business lunches, annual corporate dinners, and conferences handled with professional punctuality and delicious food.',
               },
               {
                 num: '05',
                 title: 'POP-UP EVENTS',
-                tag: 'Culinary Showcases',
-                desc: 'Immersive live-fire dining experiences, brand launches, and festival pop-ups powered by live hardwood coals and artisan sigdis.',
+                tag: 'Live Food Pop-Ups',
+                desc: 'Exciting live-fire food counters, food festival setups, and brand events powered by live charcoal grills and tandoors.',
               },
               {
                 num: '06',
                 title: 'PRIVATE & SOCIAL SOIRÉES',
-                tag: 'Milestone Celebrations',
-                desc: 'Milestone anniversaries, landmark birthdays, and exclusive club galas curated with intimate sophistication and tableside theatre.',
+                tag: 'Family Celebrations',
+                desc: 'Anniversary parties, milestone birthdays, and family get-togethers catered with royal flavors and personalized care.',
               },
               {
                 num: '07',
                 title: 'COCKTAIL RECEPTIONS',
-                tag: 'High-Bar Banqueting',
-                desc: 'Artisanal roving canapés, live skewered robata grills, smoking botanical mocktails, and interactive bar setups.',
+                tag: 'Cocktail Parties',
+                desc: 'Hot pass-around finger snacks, live skewered kebabs, refreshing mocktails, and interactive food counters.',
               },
               {
                 num: '08',
                 title: 'DIETARY-SPECIFIC & WELLNESS MENUS',
-                tag: 'Pristine Adherence',
-                desc: 'Dedicated 100% Pure Jain kitchens, satvik ceremonial preparations, organic farm-to-table courses, and customized health-conscious banquets.',
+                tag: 'Jain & Special Diets',
+                desc: 'Dedicated 100% Pure Jain preparation, satvik food for pooja events, organic ingredients, and custom dietary requests.',
               },
               {
                 num: '09',
                 title: 'INTIMATE DINNERS',
-                tag: 'Private Residence Hearth',
-                desc: 'Private chef hearth takeovers for 10 to 50 connoisseurs in personal residences, heritage farmhouses, and private villas.',
+                tag: 'Home & Villa Dinners',
+                desc: 'Private chef and live barbecue setup for 10 to 50 guests at your home, villa, or farmhouse.',
               },
             ].map((event) => (
               <div
@@ -409,7 +409,7 @@ export const HomePage: React.FC = () => {
                     to="/contact-us"
                     className="text-[11px] uppercase tracking-[0.18em] text-[#1d1c16] group-hover:text-[#6f5b41] font-medium flex items-center gap-1.5 transition-colors"
                   >
-                    <span>Inquire For This Occasion</span>
+                    <span>Inquire For This Event</span>
                     <ArrowRight className="w-3.5 h-3.5 group-hover:translate-x-1 transition-transform" />
                   </Link>
                 </div>
@@ -423,7 +423,7 @@ export const HomePage: React.FC = () => {
               to="/contact-us"
               className="inline-flex items-center justify-center gap-3 px-8 py-3.5 bg-[#1d1c16] text-[#fef9ef] text-xs uppercase tracking-[0.2em] font-medium hover:bg-[#6f5b41] transition-all shadow-md"
             >
-              <span>Consult Concierge For Your Occasion</span>
+              <span>Book Food On Fire For Your Event</span>
               <ArrowRight className="w-4 h-4 text-[#a58d70]" />
             </Link>
           </div>
@@ -438,20 +438,20 @@ export const HomePage: React.FC = () => {
           <div className="flex flex-col md:flex-row md:items-end justify-between mb-16 gap-6">
             <div className="space-y-2">
               <span className="text-[10px] uppercase tracking-[0.25em] text-[#6f5b41] font-semibold block">
-                Curated Banqueting Tiers
+                All-Inclusive Packages
               </span>
               <span className="font-script text-3xl sm:text-4xl text-[#a58d70] block font-normal -mb-2">
-                Tailored to your evening's tempo
+                Choose the best package for your guests
               </span>
               <h2 className="font-serif text-3xl sm:text-5xl font-normal text-[#1d1c16]">
-                Architected For Distinction
+                Our Catering Packages
               </h2>
             </div>
             <Link
               to="/menu"
               className="inline-flex items-center gap-2 text-xs uppercase tracking-[0.2em] text-[#1d1c16] hover:text-[#6f5b41] font-medium border-b border-[#1d1c16] pb-1 transition-colors"
             >
-              <span>Explore Complete Digital Menu</span>
+              <span>Explore All Packages & Dishes</span>
               <ArrowRight className="w-3.5 h-3.5" />
             </Link>
           </div>
@@ -470,7 +470,7 @@ export const HomePage: React.FC = () => {
                 >
                   {pkg.isFeatured && (
                     <span className="absolute -top-3 right-6 bg-[#6f5b41] text-[#fef9ef] text-[9px] uppercase tracking-[0.25em] px-3 py-1 font-medium shadow-sm">
-                      Atelier Choice
+                      Most Popular
                     </span>
                   )}
 
@@ -486,7 +486,7 @@ export const HomePage: React.FC = () => {
                         ₹{pkg.pricePerHead.toLocaleString('en-IN')}
                       </span>
                       <span className="text-xs text-stone-500 uppercase tracking-wider">
-                        / Connoisseur
+                        / Guest
                       </span>
                     </div>
 
@@ -543,17 +543,17 @@ export const HomePage: React.FC = () => {
         <div className="max-w-7xl mx-auto">
           <div className="text-center max-w-2xl mx-auto mb-16 space-y-3">
             <span className="text-[10px] uppercase tracking-[0.25em] text-[#c5a880] block">
-              The Master Culinary Repertoire
+              Chef's Recommendations
             </span>
             <span className="font-script text-4xl sm:text-5xl text-[#c5a880] block font-normal -mb-2">
-              Poetry on Porcelain
+              Loved by Our Guests
             </span>
             <h2 className="font-serif text-3xl sm:text-5xl font-normal text-[#fef9ef]">
-              Archival Signatures
+              Signature Royal Dishes
             </h2>
             <div className="w-16 h-[1.5px] bg-[#c5a880]/60 mx-auto mt-2"></div>
             <p className="text-xs sm:text-sm text-stone-300 font-light pt-2">
-              Each dish is calibrated for grand receptions, retaining integrity, aroma, and theatrical presentation until the final course.
+              Each dish is freshly prepared for grand celebrations, keeping its rich aroma and taste until the last guest is served.
             </p>
           </div>
 
@@ -625,7 +625,7 @@ export const HomePage: React.FC = () => {
               to="/menu"
               className="inline-flex items-center gap-2 px-8 py-4 border border-[#c5a880] text-xs uppercase tracking-[0.2em] text-[#c5a880] hover:bg-[#c5a880] hover:text-[#12110e] transition-all duration-300 font-medium"
             >
-              <span>View Full Catalog of 60+ Offerings</span>
+              <span>View Complete Menu & All Dishes</span>
               <ArrowRight className="w-4 h-4" />
             </Link>
           </div>
@@ -641,19 +641,19 @@ export const HomePage: React.FC = () => {
             An Unforgettable Evening
           </span>
           <span className="text-[10px] uppercase tracking-[0.3em] text-stone-500 block">
-            The Connoisseur Testimonial
+            What Our Clients Say
           </span>
           <blockquote className="font-serif text-2xl sm:text-4xl font-normal leading-relaxed text-[#1d1c16] italic">
-            "FoodOnFire turned our destination royal wedding into a poetic sensory journey. 
-            The sigdi charcoal kebabs and the tableside dough-cracking of Awadhi handis were nothing short of culinary opera."
+            "FoodOnFire turned our destination royal wedding into a magical dining experience. 
+            The live sigdi charcoal kebabs and fresh Awadhi dum handis were loved by every single guest."
           </blockquote>
           <div className="w-12 h-[1px] bg-[#6f5b41]/40 mx-auto"></div>
           <div>
             <p className="text-xs uppercase tracking-[0.2em] text-[#6f5b41] font-semibold">
-              The Singhania Royal Gala Banquet
+              The Singhania Family Wedding
             </p>
             <p className="text-[10px] uppercase tracking-wider text-stone-500 mt-1">
-              Destination Banqueting Patron • 650 Guests
+              Destination Wedding • 650 Guests
             </p>
           </div>
         </div>
@@ -665,35 +665,35 @@ export const HomePage: React.FC = () => {
       <section className="py-24 sm:py-32 px-4 sm:px-6 lg:px-12 bg-[#12110e] text-[#fef9ef]">
         <div className="max-w-4xl mx-auto bg-[#181713] border border-[#2d2921] p-8 sm:p-14 text-center space-y-6 shadow-2xl relative">
           <span className="font-script text-3xl sm:text-4xl text-[#c5a880] block -mb-2">
-            By Private Appointment Only
+            Plan Your Event
           </span>
           <span className="text-[10px] uppercase tracking-[0.25em] text-stone-400 block">
-            Direct Banqueting Directorate
+            Food On Fire Catering Team
           </span>
           <h2 className="font-serif text-3xl sm:text-5xl font-normal text-[#fef9ef]">
-            Plan Your Banquet With Our Executive Chef
+            Book Your Event Catering With Us
           </h2>
           <p className="text-stone-300 text-xs sm:text-sm font-light max-w-xl mx-auto leading-relaxed">
-            Bookings are strictly vetted to preserve kitchen focus and handcrafted precision. 
-            Connect with our culinary directorate for menu tastings, date reservations, and bespoke pairings across India.
+            We accept a limited number of events to ensure fresh cooking and royal quality. 
+            Contact our team to book your dates, arrange menu tastings, and get a customized quote for your celebration.
           </p>
           <div className="pt-4 flex flex-col sm:flex-row items-center justify-center gap-4">
             <Link
-              to="/my-selection"
+              to="/menu"
               className="w-full sm:w-auto px-8 py-4 bg-[#c5a880] text-[#12110e] text-xs uppercase tracking-[0.2em] font-medium hover:bg-[#fef9ef] transition-colors shadow-lg"
             >
-              Open Order Planner
+              Explore Menu Packages
             </Link>
             <a
               href={`https://wa.me/${BRAND_INFO.whatsappRaw}?text=${encodeURIComponent(
-                'Hello FoodOnFire Concierge, I would like to arrange a private catering consultation for an upcoming royal celebration.'
+                'Hello FoodOnFire, I would like to arrange catering for an upcoming celebration.'
               )}`}
               target="_blank"
               rel="noopener noreferrer"
               className="w-full sm:w-auto inline-flex items-center justify-center gap-2 px-8 py-4 border border-[#c5a880] text-[#c5a880] text-xs uppercase tracking-[0.2em] hover:bg-[#c5a880] hover:text-[#12110e] transition-colors"
             >
               <PhoneCall className="w-3.5 h-3.5" />
-              <span>WhatsApp Concierge Line</span>
+              <span>Chat on WhatsApp</span>
             </a>
           </div>
         </div>

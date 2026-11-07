@@ -24,10 +24,10 @@ export const FloatingSelectionBar: React.FC = () => {
           </div>
           <div className="text-left">
             <p className="text-[11px] uppercase tracking-wider text-stone-300 font-medium">
-              {totalDishItemsCount} {totalDishItemsCount === 1 ? 'Dish' : 'Dishes'} Curated
+              {totalDishItemsCount} {totalDishItemsCount === 1 ? 'Dish' : 'Dishes'} Selected
             </p>
             <p className="text-xs font-serif text-[#a58d70] tracking-wide">
-              {selectedPackage ? selectedPackage.name : 'Bespoke Selection'}
+              {selectedPackage ? selectedPackage.name : 'Custom Selection'}
             </p>
           </div>
         </div>
@@ -36,7 +36,7 @@ export const FloatingSelectionBar: React.FC = () => {
           to="/my-selection"
           className="flex items-center gap-2 px-3.5 py-2 bg-[#6f5b41] hover:bg-[#a58d70] text-white text-xs uppercase tracking-wider font-medium transition-colors ml-2"
         >
-          <span>Review Dossier</span>
+          <span>View Selection</span>
           <ArrowRight className="w-3.5 h-3.5" />
         </Link>
       </div>

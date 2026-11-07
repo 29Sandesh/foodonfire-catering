@@ -68,13 +68,13 @@ export const SelectionPage: React.FC = () => {
               className="inline-flex items-center gap-2 text-xs uppercase tracking-[0.2em] text-[#6f5b41] hover:text-[#1d1c16] mb-3 transition-colors"
             >
               <ArrowLeft className="w-3.5 h-3.5" />
-              <span>Return to Digital Menu</span>
+              <span>Return to Menu</span>
             </Link>
             <h1 className="font-serif text-3xl sm:text-5xl font-normal text-[#1d1c16]">
-              My Selection & Order Planner
+              My Menu Selection
             </h1>
             <p className="text-xs sm:text-sm text-stone-600 font-light mt-1">
-              Finalize your bespoke banquet composition and dispatch directly to our Royal Concierge.
+              Review your selected package and dishes, then send your order on WhatsApp or print a quote.
             </p>
           </div>
 
@@ -85,7 +85,7 @@ export const SelectionPage: React.FC = () => {
                 className="inline-flex items-center gap-1.5 px-3 py-1.5 border border-stone-400 text-xs uppercase tracking-wider text-stone-700 hover:border-black hover:text-black transition-colors"
               >
                 <Printer className="w-3.5 h-3.5 text-[#6f5b41]" />
-                <span>Print Dossier</span>
+                <span>Print Quotation</span>
               </button>
 
               <button
@@ -108,17 +108,16 @@ export const SelectionPage: React.FC = () => {
               <Flame className="w-7 h-7 text-[#6f5b41]" />
             </div>
             <h2 className="font-serif text-2xl sm:text-3xl text-[#1d1c16]">
-              Your Selection Docket is Empty
+              Your Selection is Empty
             </h2>
             <p className="text-xs sm:text-sm text-stone-600 font-light leading-relaxed">
-              Begin by selecting one of our 6 all-inclusive banquet packages (Bronze, Silver, Gold for Non-Veg or Veg) 
-              or shortlist bespoke dishes from our 130+ authentic prospectus recipes.
+              Start by picking an all-inclusive package (Bronze, Silver, Gold for Non-Veg or Veg) or select your favorite dishes from our menu.
             </p>
             <Link
               to="/menu"
               className="inline-block px-8 py-3.5 bg-[#1d1c16] text-[#fef9ef] text-xs uppercase tracking-[0.2em] hover:bg-[#6f5b41] transition-colors"
             >
-              Browse Digital Menu & Packages
+              Browse Menu & Packages
             </Link>
           </div>
         ) : (
@@ -722,7 +721,7 @@ export const SelectionPage: React.FC = () => {
                     className="w-full py-4 bg-[#c5a880] hover:bg-white text-[#12110e] text-xs uppercase tracking-[0.2em] font-bold transition-all flex items-center justify-center gap-2 shadow-xl"
                   >
                     <Send className="w-4 h-4 text-[#12110e]" />
-                    <span>Send Complete Order To Concierge</span>
+                    <span>Send Order On WhatsApp</span>
                   </a>
 
                   <button
@@ -730,12 +729,12 @@ export const SelectionPage: React.FC = () => {
                     className="w-full py-2.5 border border-stone-600 hover:border-[#c5a880] text-stone-300 hover:text-white text-[11px] uppercase tracking-wider transition-colors flex items-center justify-center gap-2"
                   >
                     <Printer className="w-3.5 h-3.5 text-[#c5a880]" />
-                    <span>View / Print Formal Proposal Dossier</span>
+                    <span>View / Print Menu Quotation</span>
                   </button>
                 </div>
 
                 <p className="text-[10px] text-stone-500 font-light text-center leading-relaxed pt-1">
-                  Dispatches directly to Executive Concierge: {BRAND_INFO.conciergePhone}
+                  Direct Booking Line: {BRAND_INFO.conciergePhone}
                 </p>
               </div>
             </div>
@@ -750,7 +749,7 @@ export const SelectionPage: React.FC = () => {
             {/* Modal Header */}
             <div className="flex items-center justify-between border-b border-stone-200 pb-4 mb-6 print:hidden">
               <span className="text-xs uppercase tracking-[0.2em] text-[#6f5b41] font-semibold">
-                Official Proposal Dossier
+                Event Catering Quotation
               </span>
               <div className="flex items-center gap-3">
                 <button
@@ -781,14 +780,14 @@ export const SelectionPage: React.FC = () => {
                     </span>
                   </div>
                   <span className="text-[10px] uppercase tracking-[0.25em] text-[#6f5b41] block">
-                    Royal Banqueting Atelier • Pan-India
+                    Royal Banquets & Catering • All Over India
                   </span>
                   <p className="text-xs text-stone-500 mt-1">
-                    Concierge Desk: {BRAND_INFO.conciergePhone} • {BRAND_INFO.email}
+                    Booking Phone: {BRAND_INFO.conciergePhone} • {BRAND_INFO.email}
                   </p>
                 </div>
                 <div className="text-left sm:text-right text-xs text-stone-600">
-                  <p><strong>Dossier Ref:</strong> FOF-{Date.now().toString().slice(-6)}</p>
+                  <p><strong>Quotation Ref:</strong> FOF-{Date.now().toString().slice(-6)}</p>
                   <p><strong>Date Generated:</strong> {new Date().toLocaleDateString('en-IN', { day: 'numeric', month: 'long', year: 'numeric' })}</p>
                 </div>
               </div>

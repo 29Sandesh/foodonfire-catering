@@ -20,22 +20,21 @@ export const AboutPage: React.FC = () => {
           </div>
 
           <span className="font-script text-4xl sm:text-5xl text-[#a58d70] block font-normal -mb-2">
-            A Lineage of Flame & Intention
+            Our Heritage & Passion
           </span>
 
           <h1 className="font-serif text-4xl sm:text-6xl lg:text-7xl font-normal text-[#1d1c16] tracking-tight leading-[1.08]">
-            Crafting memories from clay, charcoal, and <span className="italic text-[#6f5b41]">pure devotion.</span>
+            Cooking authentic food with real passion, clay pots, and <span className="italic text-[#6f5b41]">live charcoal.</span>
           </h1>
 
           <p className="text-stone-600 text-sm sm:text-base lg:text-lg font-light leading-relaxed max-w-2xl mx-auto pt-2">
-            FoodOnFire was founded upon a singular conviction: that banqueting is not mere food production,
-            but a theatrical invocation of memory, culture, and sensory delight across sovereign celebrations in India.
+            FoodOnFire was founded with one clear mission: to bring authentic royal flavors, live charcoal cooking, and warm Indian hospitality to every wedding and celebration across India.
           </p>
         </div>
       </section>
 
       {/* ─────────────────────────────────────────────────────────────────────────────
-          2. ARCHIVAL NARRATIVE (DEEP OBSIDIAN BLACK)
+          2. OUR STORY & ROOTS (DEEP OBSIDIAN BLACK)
           ───────────────────────────────────────────────────────────────────────────── */}
       <section className="py-24 sm:py-32 px-4 sm:px-6 lg:px-12 bg-[#12110e] text-[#fef9ef] border-b border-[#29251e] relative overflow-hidden">
         <div className="max-w-7xl mx-auto grid grid-cols-1 lg:grid-cols-12 gap-12 lg:gap-16 items-center">
@@ -50,8 +49,8 @@ export const AboutPage: React.FC = () => {
                 />
               </div>
               <div className="pt-3 flex justify-between text-[10px] uppercase tracking-wider text-stone-400">
-                <span>The Sigdi Hearth • Live Ember Cooking</span>
-                <span className="text-[#c5a880]">Pan-India Banqueting</span>
+                <span>Live Sigdi Grills • Charcoal Cooking</span>
+                <span className="text-[#c5a880]">Catering Across India</span>
               </div>
             </div>
 
@@ -63,7 +62,7 @@ export const AboutPage: React.FC = () => {
               </div>
               <div className="border border-[#2d2921] p-5 bg-[#181713]">
                 <span className="font-serif text-3xl text-[#c5a880]">500+</span>
-                <p className="text-[10px] uppercase tracking-wider text-stone-400 mt-1">Sovereign Soirees</p>
+                <p className="text-[10px] uppercase tracking-wider text-stone-400 mt-1">Events Catered</p>
                 <p className="text-xs text-stone-300 mt-2 font-light">From palace weddings to private estate dinners across India.</p>
               </div>
             </div>
@@ -72,45 +71,42 @@ export const AboutPage: React.FC = () => {
           {/* Right Column: Editorial Narrative */}
           <div className="lg:col-span-6 space-y-6 text-stone-300 leading-relaxed font-light text-sm sm:text-base">
             <span className="text-[10px] uppercase tracking-[0.25em] text-[#c5a880] font-medium block">
-              The Architecture of Taste
+              Our Cooking Style
             </span>
             <span className="font-script text-3xl sm:text-4xl text-[#c5a880] block font-normal -mb-2">
-              The Alchemy of Dum Pukht
+              The Secret of Slow Cooking
             </span>
             <h2 className="font-serif text-2xl sm:text-4xl text-[#fef9ef] font-normal leading-tight">
-              Why We Refuse To Cater Like Everyone Else
+              Why Food On Fire Is Different
             </h2>
             <p>
-              In an era dominated by industrial banquet halls serving re-heated gravies and frozen bases, 
-              FoodOnFire preserves the sanctity of the slow hearth. Our signature marinades undergo 24 to 48 hours of cold infusion, 
-              allowing mace, green cardamom, and Kashmiri saffron to penetrate deeply before meeting the embers.
+              Many caterers rely on ready-made gravies, artificial colors, and reheated frozen food. At FoodOnFire, we cook fresh from scratch. Our marinades use real Kashmiri saffron, green cardamom, and pure spices, slow-cooked over hardwood coals.
             </p>
             <p>
-              We operate exclusively with our private brigade of seasoned master khansamas and silver-glove attendants. 
-              Every menu is crafted specifically for the occasion, harmonizing seasonal weather, patron palate preferences, and event cadence.
+              Our trained chefs and serving staff take care of everything on your special day. From live barbecue counters to hot bread straight out of the tandoor, your guests enjoy fresh, hot food with royal courtesy.
             </p>
             
             <div className="p-5 bg-[#181713] border-l-2 border-[#c5a880] space-y-2">
               <span className="font-script text-2xl text-[#c5a880] block">
-                The Founder's Decree
+                Our Promise to You
               </span>
               <p className="font-serif italic text-stone-200 text-sm">
-                "Banqueting is an act of sovereign hospitality. When guests sit at our table, they are partaking in a tradition that took two centuries to perfect."
+                "Good food brings people together. When your guests sit down to eat, we make sure they taste authentic royal food made with complete love and care."
               </p>
             </div>
 
             <div className="pt-2 space-y-2.5">
               <div className="flex items-center gap-3">
                 <CheckCircle2 className="w-4 h-4 text-[#c5a880] shrink-0" />
-                <span className="text-xs sm:text-sm text-stone-200">100% Earthen Clay Dum Pukht pots cracked tableside</span>
+                <span className="text-xs sm:text-sm text-stone-200">100% Earthen Clay Dum Handis opened fresh at the buffet</span>
               </div>
               <div className="flex items-center gap-3">
                 <CheckCircle2 className="w-4 h-4 text-[#c5a880] shrink-0" />
-                <span className="text-xs sm:text-sm text-stone-200">Hand-selected Himalayan morels, saffron attars, & cold-pressed oils</span>
+                <span className="text-xs sm:text-sm text-stone-200">Real Kashmiri saffron, fresh spices, and cold-pressed pure oils</span>
               </div>
               <div className="flex items-center gap-3">
                 <CheckCircle2 className="w-4 h-4 text-[#c5a880] shrink-0" />
-                <span className="text-xs sm:text-sm text-stone-200">Complete logistical independence for remote estate & palace venues</span>
+                <span className="text-xs sm:text-sm text-stone-200">Full setup support for weddings and events anywhere in India</span>
               </div>
             </div>
           </div>
