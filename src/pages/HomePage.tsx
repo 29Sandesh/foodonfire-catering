@@ -3,120 +3,51 @@ import { Link } from 'react-router-dom';
 import { BRAND_INFO, CATERING_PACKAGES, DISH_CATALOG } from '../data/foodOnFireData';
 import { useCart } from '../context/CartContext';
 import { Dish } from '../types';
-import { ArrowRight, Flame, Sparkles, CheckCircle2, PhoneCall, Eye, X, ChevronRight, ChevronLeft } from 'lucide-react';
+import { ArrowRight, Flame, Sparkles, CheckCircle2, PhoneCall, Eye, X } from 'lucide-react';
 
 export const HomePage: React.FC = () => {
   const { addToCart, selectPackage, selectedPackage, isVegOnly } = useCart();
   const [activeQuickViewDish, setActiveQuickViewDish] = useState<Dish | null>(null);
   const [toastMessage, setToastMessage] = useState<string | null>(null);
 
-  // Hero Card Shuffle Stack of Signature Dishes (Omnivore / Non-Veg)
-  const heroDishes = [
+  // Auto-changing high-resolution catering background images for the hero section
+  const cateringBackgrounds = [
     {
-      id: 'dish-lamb-shank',
-      name: '24K Saffron Smoked Lamb Shank',
-      tagline: 'Chef\'s Sovereign Masterpiece',
-      provenance: 'Awadhi Durbars & Kashmir',
-      specs: '48-Hour Infusion • Mongra Saffron',
-      image: 'https://images.unsplash.com/photo-1544025162-d76694265947?q=80&w=1200&auto=format&fit=crop',
-      price: 580,
-      diet: 'nv',
+      id: 1,
+      url: 'https://images.unsplash.com/photo-1519167758481-83f550bb49b3?q=80&w=2000&auto=format&fit=crop',
+      title: 'Grand Royal Banquet & Reception Tablescape',
     },
     {
-      id: 'dish-murg-biryani',
-      name: 'Awadhi Murgh Dum Biryani in Clay Handi',
-      tagline: 'Tableside Earthen Seal Cracking',
-      provenance: 'Lucknow Royal Dastarkhwan',
-      specs: 'Aged Basmati • Meetha Itar Smoke',
-      image: 'https://images.unsplash.com/photo-1563379091339-03b21ab4a4f8?q=80&w=1200&auto=format&fit=crop',
-      price: 380,
-      diet: 'nv',
+      id: 2,
+      url: 'https://images.unsplash.com/photo-1555244162-803834f70033?q=80&w=2000&auto=format&fit=crop',
+      title: 'Artisanal Haute Gastronomie Catering Spread',
     },
     {
-      id: 'dish-murg-malai',
-      name: 'Murg Malai Tikka au Saffron',
-      tagline: 'Sigdi Charcoal Roasting Pass',
-      provenance: 'Mughlai Royal Court',
-      specs: 'Philadelphia Cream • Cardamom Mists',
-      image: 'https://images.unsplash.com/photo-1599488615731-7e5c2823ff28?q=80&w=1200&auto=format&fit=crop',
-      price: 320,
-      diet: 'nv',
+      id: 3,
+      url: 'https://images.unsplash.com/photo-1511795409834-ef04bbd61622?q=80&w=2000&auto=format&fit=crop',
+      title: 'Sovereign Palace Dining & Gala Tablescape',
     },
     {
-      id: 'dish-galawati-kebab',
-      name: 'Mutton Galawati Kebab on Sheermal',
-      tagline: 'Melt-in-Mouth Royal Nizami',
-      provenance: 'Nawabs of Lucknow',
-      specs: '32 Hand-Pounded Spices • Mahi Tawa',
-      image: 'https://images.unsplash.com/photo-1555939594-58d7cb561ad1?q=80&w=1200&auto=format&fit=crop',
-      price: 420,
-      diet: 'nv',
+      id: 4,
+      url: 'https://images.unsplash.com/photo-1555939594-58d7cb561ad1?q=80&w=2000&auto=format&fit=crop',
+      title: 'Live Hearth & Sigdi Charcoal Theatrics',
+    },
+    {
+      id: 5,
+      url: 'https://images.unsplash.com/photo-1464366400600-7168b8af9bc3?q=80&w=2000&auto=format&fit=crop',
+      title: 'Enchanting Open-Air Destination Banquet',
     },
   ];
 
-  // Pure Vegetarian Hero Card Shuffle Stack
-  const pureVegHeroDishes = [
-    {
-      id: 'dish-v-aloo-akhrot',
-      name: 'Aloo Akhrot Ke Gulwaoti Kebab',
-      tagline: 'Potato Walnut Signature Pattie',
-      provenance: 'Royal Awadh & Malwa Hearth',
-      specs: 'Mahi Tawa Roasted • Kashmiri Akhrot',
-      image: 'https://images.unsplash.com/photo-1567188040759-fb8a883dc6d8?q=80&w=1200&auto=format&fit=crop',
-      price: 340,
-      diet: 'v',
-    },
-    {
-      id: 'dish-v-subz-handi',
-      name: 'Subz Diwani Handi in Clay Pot',
-      tagline: 'Slow Earthen Braised Delicacy',
-      provenance: 'North-West Royal Courts',
-      specs: 'Cashew Gravy • Spinach Infusion',
-      image: 'https://images.unsplash.com/photo-1631452180519-c014fe946bc7?q=80&w=1200&auto=format&fit=crop',
-      price: 380,
-      diet: 'v',
-    },
-    {
-      id: 'dish-v-paneer-khurchan',
-      name: 'Shahi Paneer Khurchan au Saffron',
-      tagline: 'Silken Malwa Buffalo Paneer',
-      provenance: 'Imperial Mughal Dastarkhwan',
-      specs: 'Kasturi Methi • Desi Ghee Toss',
-      image: 'https://images.unsplash.com/photo-1546833999-b9f581a1996d?q=80&w=1200&auto=format&fit=crop',
-      price: 390,
-      diet: 'v',
-    },
-    {
-      id: 'dish-v-dahi-sholey',
-      name: 'Crisp Royal Dahi Ke Sholey',
-      tagline: 'Hung Curd & Fresh Herb Parcels',
-      provenance: 'Old Delhi Banqueting Lineage',
-      specs: 'Fresh Mint Chutney • Golden Crumb',
-      image: 'https://images.unsplash.com/photo-1601050690597-df0568f70950?q=80&w=1200&auto=format&fit=crop',
-      price: 320,
-      diet: 'v',
-    },
-  ];
+  const [currentBgIndex, setCurrentBgIndex] = useState(0);
 
-  const activeHeroDishes = isVegOnly ? pureVegHeroDishes : heroDishes;
-
-  const [currentHeroIndex, setCurrentHeroIndex] = useState(0);
-
-  // Auto-shuffle cards every 6 seconds
+  // Auto-change hero background image every 5 seconds
   useEffect(() => {
     const timer = setInterval(() => {
-      setCurrentHeroIndex((prev) => (prev + 1) % activeHeroDishes.length);
-    }, 6000);
+      setCurrentBgIndex((prev) => (prev + 1) % cateringBackgrounds.length);
+    }, 5000);
     return () => clearInterval(timer);
-  }, [activeHeroDishes.length]);
-
-  const handleNextHero = () => {
-    setCurrentHeroIndex((prev) => (prev + 1) % activeHeroDishes.length);
-  };
-
-  const handlePrevHero = () => {
-    setCurrentHeroIndex((prev) => (prev - 1 + activeHeroDishes.length) % activeHeroDishes.length);
-  };
+  }, [cateringBackgrounds.length]);
 
   const signatureDishes = DISH_CATALOG.filter(d => d.isSignature && (!isVegOnly || d.diet !== 'nv')).slice(0, 4);
 
@@ -126,8 +57,6 @@ export const HomePage: React.FC = () => {
     setToastMessage(`Added "${dish.name}" to your selection.`);
     setTimeout(() => setToastMessage(null), 3000);
   };
-
-  const currentDish = activeHeroDishes[currentHeroIndex % activeHeroDishes.length];
 
   return (
     <div className="font-sans">
@@ -140,13 +69,35 @@ export const HomePage: React.FC = () => {
       )}
 
       {/* ─────────────────────────────────────────────────────────────────────────────
-          1. HERO SECTION (SKIN / WARM IVORY) — Calibrated Spacing to Fit Viewport
+          1. HERO SECTION (FULL-BLEED CATERING BACKGROUND SLIDESHOW)
           ───────────────────────────────────────────────────────────────────────────── */}
-      <section className="relative min-h-[calc(100vh-5rem)] flex items-center bg-[#fef9ef] text-[#1d1c16] border-b border-[#d0c4b9]/60 px-4 sm:px-6 lg:px-12 py-8 sm:py-12">
-        <div className="max-w-7xl mx-auto w-full grid grid-cols-1 lg:grid-cols-12 gap-8 lg:gap-12 items-center">
-          {/* Left Column: Editorial Headline & Copy */}
-          <div className="lg:col-span-7 space-y-5 sm:space-y-6">
-            <div className="inline-flex items-center gap-2 px-3 py-1 border border-[#a58d70]/40 text-[#6f5b41] text-[10px] sm:text-xs uppercase tracking-[0.25em]">
+      <section className="relative min-h-[calc(100vh-5rem)] flex items-center overflow-hidden bg-[#fef9ef] text-[#1d1c16] border-b border-[#d0c4b9]/60 px-4 sm:px-6 lg:px-12 py-12 sm:py-16">
+        {/* Full-Bleed Auto-Changing Catering Background Slideshow */}
+        <div className="absolute inset-0 z-0 overflow-hidden pointer-events-none select-none">
+          {cateringBackgrounds.map((bg, idx) => (
+            <div
+              key={bg.id}
+              className={`absolute inset-0 transition-opacity duration-1000 ease-in-out ${
+                idx === currentBgIndex ? 'opacity-100' : 'opacity-0'
+              }`}
+            >
+              <img
+                src={bg.url}
+                alt={bg.title}
+                className="w-full h-full object-cover object-center"
+              />
+            </div>
+          ))}
+
+          {/* Editorial Warm Ivory Gradient & Vignette for 100% Text Legibility */}
+          <div className="absolute inset-0 bg-gradient-to-r from-[#fef9ef] via-[#fef9ef]/95 sm:via-[#fef9ef]/85 to-[#fef9ef]/40 lg:to-[#fef9ef]/25" />
+          <div className="absolute inset-0 bg-gradient-to-t from-[#fef9ef] via-transparent to-[#fef9ef]/50" />
+        </div>
+
+        {/* Foreground Content Container */}
+        <div className="relative z-10 max-w-7xl mx-auto w-full">
+          <div className="max-w-2xl lg:max-w-3xl space-y-5 sm:space-y-6">
+            <div className="inline-flex items-center gap-2 px-3 py-1 border border-[#a58d70]/40 bg-[#fef9ef]/80 backdrop-blur-sm text-[#6f5b41] text-[10px] sm:text-xs uppercase tracking-[0.25em]">
               <Flame className="w-3.5 h-3.5 text-[#6f5b41]" />
               <span>Haute Gastronomie • Pan-India</span>
             </div>
@@ -160,7 +111,7 @@ export const HomePage: React.FC = () => {
               </h1>
             </div>
 
-            <p className="text-stone-600 text-xs sm:text-sm lg:text-base max-w-xl font-light leading-relaxed">
+            <p className="text-stone-700 text-xs sm:text-sm lg:text-base max-w-xl font-light leading-relaxed">
               Where centuries-old Awadhi and Mughlai hearth traditions meet contemporary tablescape minimalism. 
               We curate transcendent dining experiences for destination weddings, luxury soirees, and prestigious gatherings across India and beyond.
             </p>
@@ -177,7 +128,7 @@ export const HomePage: React.FC = () => {
               {/* About FOF button with FoodOnFire script subtitle */}
               <Link
                 to="/about-us"
-                className="inline-flex flex-col items-center justify-center px-6 py-2.5 border border-[#1d1c16] text-[#1d1c16] hover:bg-[#1d1c16] hover:text-[#fef9ef] transition-colors duration-300 group"
+                className="inline-flex flex-col items-center justify-center px-6 py-2.5 border border-[#1d1c16] bg-[#fef9ef]/70 backdrop-blur-sm text-[#1d1c16] hover:bg-[#1d1c16] hover:text-[#fef9ef] transition-colors duration-300 group"
               >
                 <span className="text-xs uppercase tracking-[0.2em] font-medium leading-none">
                   About FOF
@@ -189,107 +140,43 @@ export const HomePage: React.FC = () => {
             </div>
 
             {/* Metrics Bar */}
-            <div className="pt-6 border-t border-[#d0c4b9]/50 grid grid-cols-3 gap-4 text-stone-800">
+            <div className="pt-6 border-t border-[#d0c4b9]/60 grid grid-cols-3 gap-4 text-stone-800 max-w-lg">
               <div>
                 <p className="font-serif text-2xl sm:text-3xl font-normal text-[#1d1c16]">25+</p>
-                <p className="text-[10px] uppercase tracking-wider text-stone-500 mt-0.5">Years of Lineage</p>
+                <p className="text-[10px] uppercase tracking-wider text-stone-600 mt-0.5 font-medium">Years of Lineage</p>
               </div>
               <div>
                 <p className="font-serif text-2xl sm:text-3xl font-normal text-[#1d1c16]">500+</p>
-                <p className="text-[10px] uppercase tracking-wider text-stone-500 mt-0.5">Royal Banquets</p>
+                <p className="text-[10px] uppercase tracking-wider text-stone-600 mt-0.5 font-medium">Royal Banquets</p>
               </div>
               <div>
                 <p className="font-serif text-2xl sm:text-3xl font-normal text-[#1d1c16]">100%</p>
-                <p className="text-[10px] uppercase tracking-wider text-stone-500 mt-0.5">Custom Formulations</p>
+                <p className="text-[10px] uppercase tracking-wider text-stone-600 mt-0.5 font-medium">Custom Formulations</p>
               </div>
             </div>
           </div>
+        </div>
 
-          {/* Right Column: Shuffling Dish Card Deck */}
-          <div className="lg:col-span-5 relative flex items-center justify-center">
-            {/* Multi-layered Shuffling Card Stack Container */}
-            <div className="relative w-full max-w-[380px] sm:max-w-[420px] aspect-[4/5] mx-auto select-none">
-              
-              {/* Background Stack Layer 2 (Deepest Tilt) */}
-              <div className="absolute inset-0 bg-[#e5decb] border border-[#d0c4b9] translate-x-3 translate-y-3 rotate-2 opacity-60 pointer-events-none rounded-none shadow-sm"></div>
-
-              {/* Background Stack Layer 1 (Mid Tilt) */}
-              <div className="absolute inset-0 bg-[#f0e9dc] border border-[#d0c4b9] -translate-x-2 translate-y-2 -rotate-1 opacity-85 pointer-events-none rounded-none shadow-md"></div>
-
-              {/* Foreground Active Card */}
-              <div 
-                onClick={handleNextHero}
-                className="relative w-full h-full bg-white border border-[#d0c4b9] p-3.5 shadow-2xl cursor-pointer group transition-all duration-700 ease-out hover:scale-[1.01]"
-              >
-                <div className="relative w-full h-full overflow-hidden bg-stone-900 flex flex-col justify-end">
-                  <img
-                    key={currentDish.id}
-                    src={currentDish.image}
-                    alt={currentDish.name}
-                    className="absolute inset-0 w-full h-full object-cover transition-all duration-700 group-hover:scale-105 animate-fade-in"
-                  />
-                  <div className="absolute inset-0 bg-gradient-to-t from-black/85 via-black/30 to-transparent"></div>
-
-                  {/* Top Deck Badge & Card Shuffle Trigger */}
-                  <div className="absolute top-3 left-3 right-3 flex items-center justify-between z-10 text-white">
-                    <div className="flex items-center gap-1.5">
-                      <span className={`px-2.5 py-1 backdrop-blur-md text-[9px] uppercase tracking-widest border ${
-                        currentDish.diet === 'v'
-                          ? 'bg-[#061e12]/90 border-emerald-500/80 text-emerald-300'
-                          : 'bg-black/80 border-[#c5a880]/50 text-[#c5a880]'
-                      }`}>
-                        {currentDish.diet === 'v' ? '● Pure Veg Signature' : '● Chef Masterwork'} 0{((currentHeroIndex % activeHeroDishes.length) + 1)} / 0{activeHeroDishes.length}
-                      </span>
-                    </div>
-                    <button
-                      onClick={(e) => {
-                        e.stopPropagation();
-                        handleNextHero();
-                      }}
-                      className="px-2.5 py-1 bg-black/75 backdrop-blur-md text-[9px] uppercase tracking-wider text-stone-300 hover:text-white border border-stone-700 hover:border-[#c5a880] flex items-center gap-1 transition-colors"
-                      title="Shuffle to next signature creation"
-                    >
-                      <span>Shuffle</span>
-                      <ChevronRight className="w-3 h-3 text-[#c5a880]" />
-                    </button>
-                  </div>
-
-                  {/* Bottom Dish Information */}
-                  <div className="relative z-10 p-5 text-white space-y-1">
-                    <span className="font-script text-2xl sm:text-3xl text-[#c5a880] block -mb-1">
-                      {currentDish.tagline}
-                    </span>
-                    <p className="font-serif text-lg sm:text-xl tracking-wide leading-snug">
-                      {currentDish.name}
-                    </p>
-                    <div className="flex items-center justify-between pt-1 text-[10px] uppercase tracking-[0.18em] text-stone-300">
-                      <span>{currentDish.provenance}</span>
-                      <span className="text-[#c5a880] font-semibold">₹{currentDish.price}/head</span>
-                    </div>
-
-                    {/* Card Shuffle Indicators & Add Button */}
-                    <div className="pt-3 flex items-center justify-between border-t border-white/15">
-                      <div className="flex items-center gap-1.5">
-                        {activeHeroDishes.map((_, i) => (
-                          <span
-                            key={i}
-                            className={`h-1.5 transition-all duration-300 ${
-                              i === (currentHeroIndex % activeHeroDishes.length)
-                                ? currentDish.diet === 'v' ? 'w-6 bg-emerald-400' : 'w-6 bg-[#c5a880]'
-                                : 'w-1.5 bg-white/40'
-                            }`}
-                          />
-                        ))}
-                      </div>
-
-                      <span className="text-[9px] uppercase tracking-widest text-stone-400">
-                        Click card to shuffle →
-                      </span>
-                    </div>
-                  </div>
-                </div>
-              </div>
-            </div>
+        {/* Discrete Luxury Slide Counter in Bottom Right */}
+        <div className="absolute bottom-6 right-6 lg:right-12 z-10 flex items-center gap-3 bg-[#1d1c16]/80 backdrop-blur-md px-3.5 py-1.5 border border-[#c5a880]/30 text-white select-none">
+          <span className="text-[10px] uppercase tracking-widest text-[#c5a880] hidden sm:inline">
+            Catering Showcase
+          </span>
+          <span className="text-stone-500 text-xs hidden sm:inline">•</span>
+          <span className="text-xs font-mono text-stone-200">
+            0{currentBgIndex + 1} / 0{cateringBackgrounds.length}
+          </span>
+          <div className="flex items-center gap-1.5 ml-1">
+            {cateringBackgrounds.map((_, i) => (
+              <button
+                key={i}
+                onClick={() => setCurrentBgIndex(i)}
+                aria-label={`View slide ${i + 1}`}
+                className={`h-1.5 transition-all duration-300 pointer-events-auto rounded-none ${
+                  i === currentBgIndex ? 'w-5 bg-[#c5a880]' : 'w-1.5 bg-white/40 hover:bg-white/70'
+                }`}
+              />
+            ))}
           </div>
         </div>
       </section>
