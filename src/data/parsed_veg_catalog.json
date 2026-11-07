@@ -1,0 +1,3008 @@
+[
+  {
+    "name": "F O O D  O N",
+    "desc": "",
+    "page": 1,
+    "cat": "starters"
+  },
+  {
+    "name": "F I R E",
+    "desc": "",
+    "page": 1,
+    "cat": "starters"
+  },
+  {
+    "name": "M E N U  P R O P O S E L",
+    "desc": "",
+    "page": 1,
+    "cat": "starters"
+  },
+  {
+    "name": "S E L E C T I O N",
+    "desc": "",
+    "page": 1,
+    "cat": "starters"
+  },
+  {
+    "name": "Mocktails",
+    "desc": "",
+    "page": 2,
+    "cat": "mocktails"
+  },
+  {
+    "name": "Fruit Punch",
+    "desc": "",
+    "page": 2,
+    "cat": "mocktails"
+  },
+  {
+    "name": "Thandai",
+    "desc": "",
+    "page": 2,
+    "cat": "mocktails"
+  },
+  {
+    "name": "Jaljeera",
+    "desc": "",
+    "page": 2,
+    "cat": "mocktails"
+  },
+  {
+    "name": "Badam Shake",
+    "desc": "",
+    "page": 2,
+    "cat": "mocktails"
+  },
+  {
+    "name": "Seasonal Fruit Juice",
+    "desc": "",
+    "page": 2,
+    "cat": "mocktails"
+  },
+  {
+    "name": "Aam Ka Pana",
+    "desc": "",
+    "page": 2,
+    "cat": "mocktails"
+  },
+  {
+    "name": "Chocó Chips Milk Shake",
+    "desc": "",
+    "page": 2,
+    "cat": "mocktails"
+  },
+  {
+    "name": "Custard Apple Shake",
+    "desc": "",
+    "page": 2,
+    "cat": "mocktails"
+  },
+  {
+    "name": "Dry Fruit Shake",
+    "desc": "",
+    "page": 2,
+    "cat": "mocktails"
+  },
+  {
+    "name": "Strawberry Milk Shake",
+    "desc": "",
+    "page": 2,
+    "cat": "mocktails"
+  },
+  {
+    "name": "Chikoo Shake",
+    "desc": "",
+    "page": 2,
+    "cat": "mocktails"
+  },
+  {
+    "name": "Orange Blossom",
+    "desc": "",
+    "page": 2,
+    "cat": "mocktails"
+  },
+  {
+    "name": "Mango Delight",
+    "desc": "",
+    "page": 2,
+    "cat": "mocktails"
+  },
+  {
+    "name": "Pinacoloda",
+    "desc": "",
+    "page": 2,
+    "cat": "mocktails"
+  },
+  {
+    "name": "Mint Mojito",
+    "desc": "",
+    "page": 2,
+    "cat": "mocktails"
+  },
+  {
+    "name": "Blue Angel",
+    "desc": "",
+    "page": 2,
+    "cat": "mocktails"
+  },
+  {
+    "name": "Blue Lagoon",
+    "desc": "",
+    "page": 2,
+    "cat": "mocktails"
+  },
+  {
+    "name": "Pudina Nimbu Shikanji",
+    "desc": "",
+    "page": 2,
+    "cat": "mocktails"
+  },
+  {
+    "name": "Kiwi Cooler",
+    "desc": "",
+    "page": 2,
+    "cat": "mocktails"
+  },
+  {
+    "name": "Pineapple Grapesmojito",
+    "desc": "",
+    "page": 2,
+    "cat": "mocktails"
+  },
+  {
+    "name": "Spicy Watermelon & Black Grapes Combo",
+    "desc": "",
+    "page": 2,
+    "cat": "mocktails"
+  },
+  {
+    "name": "Grapes And Guava Combo",
+    "desc": "",
+    "page": 3,
+    "cat": "mocktails"
+  },
+  {
+    "name": "Virgin Mojito",
+    "desc": "",
+    "page": 3,
+    "cat": "mocktails"
+  },
+  {
+    "name": "Kiwi Mojito",
+    "desc": "",
+    "page": 3,
+    "cat": "mocktails"
+  },
+  {
+    "name": "Pink Lady",
+    "desc": "",
+    "page": 3,
+    "cat": "mocktails"
+  },
+  {
+    "name": "Pink Panther",
+    "desc": "",
+    "page": 3,
+    "cat": "mocktails"
+  },
+  {
+    "name": "Lady In Red",
+    "desc": "",
+    "page": 3,
+    "cat": "mocktails"
+  },
+  {
+    "name": "Scarlet Sin",
+    "desc": "",
+    "page": 3,
+    "cat": "mocktails"
+  },
+  {
+    "name": "Tandoori Starters",
+    "desc": "",
+    "page": 4,
+    "cat": "starters"
+  },
+  {
+    "name": "Subzshami Kebab",
+    "desc": "chopped vegetable, yellow lentil and finished with indian spices",
+    "page": 4,
+    "cat": "starters"
+  },
+  {
+    "name": "Veg Seekh Kebab",
+    "desc": "vegetable skewer, indian style",
+    "page": 4,
+    "cat": "starters"
+  },
+  {
+    "name": "Mutter Shammi Kebab",
+    "desc": "green peas paittes",
+    "page": 4,
+    "cat": "starters"
+  },
+  {
+    "name": "Aloo Akhrot Ke Gulwaoti Kebab",
+    "desc": "potato walnut pattie",
+    "page": 4,
+    "cat": "starters"
+  },
+  {
+    "name": "Mushroom Peri Peri",
+    "desc": "goan style mushroom preparation",
+    "page": 4,
+    "cat": "starters"
+  },
+  {
+    "name": "Veg Sikampuri Kebab",
+    "desc": "vegetable tikki with Indian spices",
+    "page": 4,
+    "cat": "starters"
+  },
+  {
+    "name": "Makai Malaiseekhkebab",
+    "desc": "american corn, cottage cheese, hung curd & indian spices",
+    "page": 4,
+    "cat": "starters"
+  },
+  {
+    "name": "Kale Chane Kekebab",
+    "desc": "tikki ofboiled black chana, potatowith Indian spices",
+    "page": 4,
+    "cat": "starters"
+  },
+  {
+    "name": "Rajma Ke Sami Kebab",
+    "desc": "tikki of kidney beans with gram flour flavored with05 spices",
+    "page": 5,
+    "cat": "starters"
+  },
+  {
+    "name": "Brcoolli Ke Galawat Kebab",
+    "desc": "tenderedtikki ofbroccoli with cottage cheese",
+    "page": 5,
+    "cat": "starters"
+  },
+  {
+    "name": "Ajwaini Paneer Tikka",
+    "desc": "carom seeds flavored cottage cheese, cooked in tandoor",
+    "page": 5,
+    "cat": "starters"
+  },
+  {
+    "name": "Paneer Chutneywala",
+    "desc": "coriandermint flavored cottage cheese cooked in tandoor",
+    "page": 5,
+    "cat": "starters"
+  },
+  {
+    "name": "Paneer Lahori Tikka",
+    "desc": "tandoori masala marinated cottage cheese",
+    "page": 5,
+    "cat": "starters"
+  },
+  {
+    "name": "Paneer Kali Mirch",
+    "desc": "black pepper flavored cottage cheese, cooked in charcoal",
+    "page": 5,
+    "cat": "starters"
+  },
+  {
+    "name": "Peshawari Paneer Tikka",
+    "desc": "melon seeds, green chilly, ginger, ground spices",
+    "page": 5,
+    "cat": "starters"
+  },
+  {
+    "name": "Paneer Kandahari",
+    "desc": "beet root flavored cottage cheese cooked in tandoor",
+    "page": 5,
+    "cat": "starters"
+  },
+  {
+    "name": "Hariyali Paneer Tikka",
+    "desc": "cottage cheese, mint, coriander paste, green chilly",
+    "page": 5,
+    "cat": "starters"
+  },
+  {
+    "name": "Paneer Sufiyani Tikka",
+    "desc": "fennel seeds flavored cottage cheese",
+    "page": 5,
+    "cat": "starters"
+  },
+  {
+    "name": "Amritsari Paneer",
+    "desc": "spicy cottage cheese cooked in tandoor",
+    "page": 5,
+    "cat": "starters"
+  },
+  {
+    "name": "Tirangapaneer Tikka",
+    "desc": "cottage cheese with 03 different marniation",
+    "page": 6,
+    "cat": "starters"
+  },
+  {
+    "name": "Fried Starters",
+    "desc": "",
+    "page": 6,
+    "cat": "starters"
+  },
+  {
+    "name": "Chowk Ki Tikki",
+    "desc": "fried green peas& potatopatties",
+    "page": 6,
+    "cat": "starters"
+  },
+  {
+    "name": "Cocktail Samosa",
+    "desc": "small deep fried or baked pastry with a savoury filling",
+    "page": 6,
+    "cat": "starters"
+  },
+  {
+    "name": "Mini Kachori",
+    "desc": "smalldeep fried crispy and crunchy balls",
+    "page": 6,
+    "cat": "starters"
+  },
+  {
+    "name": "Batter Fried Mushroom",
+    "desc": "bread crumbs coated mushroom fry",
+    "page": 6,
+    "cat": "starters"
+  },
+  {
+    "name": "Cheese Stuffed Mushrooms",
+    "desc": "mushroom cheese stuffed with herbs",
+    "page": 6,
+    "cat": "starters"
+  },
+  {
+    "name": "Corn Vol Au Vents",
+    "desc": "puffpastry filled with corn and cheese",
+    "page": 6,
+    "cat": "starters"
+  },
+  {
+    "name": "Cheese Ball",
+    "desc": "mixtureof cottage cheese, process cheese",
+    "page": 6,
+    "cat": "starters"
+  },
+  {
+    "name": "Oriental Starters",
+    "desc": "",
+    "page": 7,
+    "cat": "starters"
+  },
+  {
+    "name": "Vegetable Manchurian Dry",
+    "desc": "veg ball with chinese sauces",
+    "page": 7,
+    "cat": "starters"
+  },
+  {
+    "name": "Chilly Paneer",
+    "desc": "cottage cheese bell pepper tossed with chinese sauce",
+    "page": 7,
+    "cat": "starters"
+  },
+  {
+    "name": "Gobi Manchurian",
+    "desc": "fried cauliflower tossed with soya and chilly",
+    "page": 7,
+    "cat": "starters"
+  },
+  {
+    "name": "Crispyfried Vegetable",
+    "desc": "vegetable with bell pepper",
+    "page": 7,
+    "cat": "starters"
+  },
+  {
+    "name": "Vegetable Salt And Pepper",
+    "desc": "black pepper flavored crispy vegetable",
+    "page": 7,
+    "cat": "starters"
+  },
+  {
+    "name": "Vegetable Satay",
+    "desc": "vegetable skewers with peanuts sauce",
+    "page": 7,
+    "cat": "starters"
+  },
+  {
+    "name": "Indian Soup",
+    "desc": "",
+    "page": 8,
+    "cat": "soups"
+  },
+  {
+    "name": "Western Soup",
+    "desc": "",
+    "page": 8,
+    "cat": "soups"
+  },
+  {
+    "name": "Tomatodhaniya Shorba",
+    "desc": "Hearty tomato broth, coriander, cumin, garlic",
+    "page": 8,
+    "cat": "soups"
+  },
+  {
+    "name": "Palak Badam Ki Shorba",
+    "desc": "Spinach, almonds, garlic, fresh cream",
+    "page": 8,
+    "cat": "soups"
+  },
+  {
+    "name": "Subz Shorba",
+    "desc": "vegetable thin soup",
+    "page": 8,
+    "cat": "soups"
+  },
+  {
+    "name": "Classicminestrone Soup",
+    "desc": "Italian clear vegetable soup with pasta and cheese",
+    "page": 8,
+    "cat": "soups"
+  },
+  {
+    "name": "Cream Of Mushroom Soup",
+    "desc": "puree of mushroom & cream base thick soup",
+    "page": 8,
+    "cat": "soups"
+  },
+  {
+    "name": "Broccoli Almond Soup",
+    "desc": "almond broccoli thick soup",
+    "page": 8,
+    "cat": "soups"
+  },
+  {
+    "name": "Cheese Corn Tomato Soup",
+    "desc": "tomato, cheese, american corn",
+    "page": 8,
+    "cat": "soups"
+  },
+  {
+    "name": "Pesto Minestrone Soup",
+    "desc": "basil flavored italian soup with pasta and cheese",
+    "page": 8,
+    "cat": "soups"
+  },
+  {
+    "name": "Thai Soup",
+    "desc": "",
+    "page": 9,
+    "cat": "soups"
+  },
+  {
+    "name": "Vegetable Tom Yum Soup",
+    "desc": "galangal & lemon grassvegetableclearsoup",
+    "page": 9,
+    "cat": "soups"
+  },
+  {
+    "name": "Khow Suey",
+    "desc": "thai ginger coconut soup",
+    "page": 9,
+    "cat": "soups"
+  },
+  {
+    "name": "Vegetable Manchow Soup",
+    "desc": "soya based thick vegetable soup with crispy noodles",
+    "page": 9,
+    "cat": "soups"
+  },
+  {
+    "name": "Vegetable Hot & Sour Soup",
+    "desc": "spicy and sour vegetable soup",
+    "page": 9,
+    "cat": "soups"
+  },
+  {
+    "name": "Lemon Coriander Soup",
+    "desc": "Fresh Lemon, Coriander Thick Soup",
+    "page": 9,
+    "cat": "soups"
+  },
+  {
+    "name": "Vegetable Sweet Corn Soup",
+    "desc": "Corn And Vegetable Thick Soup Burnt",
+    "page": 9,
+    "cat": "soups"
+  },
+  {
+    "name": "Burnt Garlic Vegetable Soup",
+    "desc": "garlic flavored vegetable soup",
+    "page": 9,
+    "cat": "soups"
+  },
+  {
+    "name": "Oriental Soup",
+    "desc": "",
+    "page": 9,
+    "cat": "soups"
+  },
+  {
+    "name": "Indian Salads",
+    "desc": "",
+    "page": 10,
+    "cat": "salads"
+  },
+  {
+    "name": "Chana Chaat",
+    "desc": "white chickpea, tomato, onion and green chilly",
+    "page": 10,
+    "cat": "salads"
+  },
+  {
+    "name": "Aloo Chaat",
+    "desc": "boiledpotato dice, onion, tomato, fresh coriander",
+    "page": 10,
+    "cat": "salads"
+  },
+  {
+    "name": "Dahi Papdi Chaat",
+    "desc": "crispy savoury, pop rice & indian spices",
+    "page": 10,
+    "cat": "salads"
+  },
+  {
+    "name": "Kachumber Salad",
+    "desc": "cucumber, tomato, onion, lemon juice",
+    "page": 10,
+    "cat": "salads"
+  },
+  {
+    "name": "Aloo, Anar Chaat",
+    "desc": "potato, pomegranate, chaat masala",
+    "page": 10,
+    "cat": "salads"
+  },
+  {
+    "name": "Fruit Chaat",
+    "desc": "mix fresh fruit with chaat masala",
+    "page": 10,
+    "cat": "salads"
+  },
+  {
+    "name": "Papdi Rajma Chaat",
+    "desc": "crispy savoury and kidney bean",
+    "page": 10,
+    "cat": "salads"
+  },
+  {
+    "name": "Moth Aur Moong Ki Chaat",
+    "desc": "small potato diced, green lentil",
+    "page": 10,
+    "cat": "salads"
+  },
+  {
+    "name": "Makai And Mutter",
+    "desc": "green pea and corn",
+    "page": 10,
+    "cat": "salads"
+  },
+  {
+    "name": "Western Salads",
+    "desc": "",
+    "page": 11,
+    "cat": "salads"
+  },
+  {
+    "name": "Greek Salad",
+    "desc": "cucumber, tomato, carrot, green chilly, lemon, feta cheese & olives",
+    "page": 11,
+    "cat": "salads"
+  },
+  {
+    "name": "Three Bean Salad",
+    "desc": "kidney bean, chickpea, white eye bean",
+    "page": 11,
+    "cat": "salads"
+  },
+  {
+    "name": "Mix Fruit Waldorf Salad",
+    "desc": "fresh fruit, mayonnaise, walnuts and celery",
+    "page": 11,
+    "cat": "salads"
+  },
+  {
+    "name": "Chilled Cucumber And Mint Yogurt Salad",
+    "desc": "cucumber and yogurt",
+    "page": 11,
+    "cat": "salads"
+  },
+  {
+    "name": "Russian Salad",
+    "desc": "fresh vegetable with potato and pea",
+    "page": 11,
+    "cat": "salads"
+  },
+  {
+    "name": "Broccoli Andalmond Salad",
+    "desc": "blanched broccoli and almond",
+    "page": 11,
+    "cat": "salads"
+  },
+  {
+    "name": "Caesar Salad",
+    "desc": "iceberg lettuce, mayonnaise, parmesan cheese",
+    "page": 11,
+    "cat": "salads"
+  },
+  {
+    "name": "Coleslaw Salad",
+    "desc": "cabbage, pineapple, carrot",
+    "page": 11,
+    "cat": "salads"
+  },
+  {
+    "name": "Cucumber Dill Dressing",
+    "desc": "chilled slice cucumber with dill leaves",
+    "page": 11,
+    "cat": "salads"
+  },
+  {
+    "name": "Potatoes With Garlic Chips",
+    "desc": "garlicflavored potato salad",
+    "page": 11,
+    "cat": "salads"
+  },
+  {
+    "name": "P A S T A  W I T H  B A S I L  C R E A M  C H E E S E",
+    "desc": "c r e a m  p a s t a  w i t h  b a s i l  a n d  c h e e s e",
+    "page": 12,
+    "cat": "salads"
+  },
+  {
+    "name": "P I C K L E D  S P I C E D  C U C U M B E R S",
+    "desc": "p i c k l e  c u c u m b e r  g a r n i s h e d  w i t h  s u m a c  p o w d e r",
+    "page": 12,
+    "cat": "salads"
+  },
+  {
+    "name": "R O A S T E D  C O R N  A N D  C A P S I C U M  S A L A D",
+    "desc": "r o a s t  a m e r i c a n  c o r n ,  c a p s i c u m",
+    "page": 12,
+    "cat": "salads"
+  },
+  {
+    "name": "S P I C E D  B E E T R O O T  S A L A D",
+    "desc": "b e e t r o o t ,  p o w d e r  o f  s p i c e s",
+    "page": 12,
+    "cat": "salads"
+  },
+  {
+    "name": "C A P R E S E  S A L A D",
+    "desc": "r e d  t o m a t o  a n d  m o z z a r e l l a  c h e e s e",
+    "page": 12,
+    "cat": "salads"
+  },
+  {
+    "name": "T O M A T O  A N D  B E A N S",
+    "desc": "d i c e  t o m a t o  a n d  k i d n e y  b e a n s",
+    "page": 12,
+    "cat": "salads"
+  },
+  {
+    "name": "C H I C K P E A  S A L A D",
+    "desc": "w h i t e  c h i c k p e a  w i t h  h e r b s",
+    "page": 12,
+    "cat": "salads"
+  },
+  {
+    "name": "S P A N I S H  R I C E  S A L A D",
+    "desc": "b o i l e d  r i c e  w i t h b e l l p e p p e r  a n d  c h e e s e",
+    "page": 12,
+    "cat": "salads"
+  },
+  {
+    "name": "C O C O N U T  A N D  C A R R O T S  W I T H  D R I E D  F I G",
+    "desc": "c a r r o t s ,  g r e e t e d  c o c o n u t  a n d  f i g",
+    "page": 12,
+    "cat": "salads"
+  },
+  {
+    "name": "M A C A R O N I ,  C H E E S E  A N D  P I N E  N U T S",
+    "desc": "m a c a r o n i  p a s t a ,  c h e e s e  a n d  p i n e  n u t s",
+    "page": 12,
+    "cat": "salads"
+  },
+  {
+    "name": "K I M  C H I",
+    "desc": "s p i c y  c a b b a g e  s a l a d  w i t h  s e s a m e  s e e d s",
+    "page": 12,
+    "cat": "salads"
+  },
+  {
+    "name": "S U M  T O M",
+    "desc": "t h a i  r a w  m a n g o  s a l a d  ( s e a s o n a l",
+    "page": 12,
+    "cat": "salads"
+  },
+  {
+    "name": "Indian Maincourse (Paneer)",
+    "desc": "",
+    "page": 13,
+    "cat": "mains"
+  },
+  {
+    "name": "Paneer Buttermasala",
+    "desc": "cottage cheese with onion and cashew nuts gravy",
+    "page": 13,
+    "cat": "mains"
+  },
+  {
+    "name": "Paneer Lababdar",
+    "desc": "cottage cheese cooked with rich cashew nut gravy",
+    "page": 13,
+    "cat": "mains"
+  },
+  {
+    "name": "Achari Paneer",
+    "desc": "pickle flavored cottage cheese curry",
+    "page": 13,
+    "cat": "mains"
+  },
+  {
+    "name": "Paneer Do Pyaza",
+    "desc": "cottage cheese cooked with spring onion and rich gravy",
+    "page": 13,
+    "cat": "mains"
+  },
+  {
+    "name": "Paneer Pasanda",
+    "desc": "fried stuffed cottage cheese sandwich in a smooth gravy",
+    "page": 13,
+    "cat": "mains"
+  },
+  {
+    "name": "Paneer Makhani",
+    "desc": "cottage cheese cooked with tomato, chilly and butter",
+    "page": 13,
+    "cat": "mains"
+  },
+  {
+    "name": "Palak Paneer",
+    "desc": "cottage cheese, puree of spinach paste and fresh cream",
+    "page": 13,
+    "cat": "mains"
+  },
+  {
+    "name": "Paneer Jalfrezi",
+    "desc": "cottagecheese, cooler pepper, onion and garam masala",
+    "page": 13,
+    "cat": "mains"
+  },
+  {
+    "name": "Paneer Jahangiri",
+    "desc": "triangle cut paneer stuffing with green peas and indian spices red gravy",
+    "page": 13,
+    "cat": "mains"
+  },
+  {
+    "name": "Paneer Hyderbadi Khada Masala",
+    "desc": "",
+    "page": 13,
+    "cat": "mains"
+  },
+  {
+    "name": "Vegetable Korma",
+    "desc": "mix vegetable with curd, cashew nut and tomato gravy",
+    "page": 14,
+    "cat": "mains"
+  },
+  {
+    "name": "Masala Gobi Mutter",
+    "desc": "cauliflower and green peas curry",
+    "page": 14,
+    "cat": "mains"
+  },
+  {
+    "name": "Miloni Sabzi",
+    "desc": "mix vegetable with spinach and rich cream",
+    "page": 14,
+    "cat": "mains"
+  },
+  {
+    "name": "Khumb Muttermakai Palak",
+    "desc": "mushroom, green peas, corn and spinach curry",
+    "page": 14,
+    "cat": "mains"
+  },
+  {
+    "name": "Tawa Subzi",
+    "desc": "mix vegetable tossed in non stick pan",
+    "page": 14,
+    "cat": "mains"
+  },
+  {
+    "name": "Bhindi Tawa Masala",
+    "desc": "fried okra cooked in onion tomato masala",
+    "page": 14,
+    "cat": "mains"
+  },
+  {
+    "name": "(Cubes Cut Paneer In Yellow Brown Gravy Flavored With Khada Masala)",
+    "desc": "",
+    "page": 14,
+    "cat": "mains"
+  },
+  {
+    "name": "Paneer Kundankalliyan",
+    "desc": "small cubes of paneer served with red dum pukht gravy",
+    "page": 14,
+    "cat": "mains"
+  },
+  {
+    "name": "Paneer Nawabi Dum Pukht Korma",
+    "desc": "small cubes paneer in dum pukht gravy seasoned with indian spices",
+    "page": 14,
+    "cat": "mains"
+  },
+  {
+    "name": "Kadhai Paneer",
+    "desc": "cottage cheese with pepper, onion and spices",
+    "page": 14,
+    "cat": "mains"
+  },
+  {
+    "name": "Kachi Mirch Ka Paneer",
+    "desc": "banana chilly with cottage curry",
+    "page": 14,
+    "cat": "mains"
+  },
+  {
+    "name": "Indian Main Course (Vegetables)",
+    "desc": "",
+    "page": 14,
+    "cat": "mains"
+  },
+  {
+    "name": "Khubani Kofta Curry",
+    "desc": "apricot stuffed cottage dumpling",
+    "page": 15,
+    "cat": "mains"
+  },
+  {
+    "name": "Vegetable Kofta Curry",
+    "desc": "cottage cheese and vegetable dumpling",
+    "page": 15,
+    "cat": "mains"
+  },
+  {
+    "name": "Malai Kofta",
+    "desc": "aloo paneer dumpling served with yellow white gravy",
+    "page": 15,
+    "cat": "mains"
+  },
+  {
+    "name": "Dum Aloo Banarasi",
+    "desc": "baby potato cooked with rich cashew nut gravy",
+    "page": 15,
+    "cat": "mains"
+  },
+  {
+    "name": "Aloo Jeera",
+    "desc": "boiledpotato with cumin seeds, asafoetida and green chilly",
+    "page": 15,
+    "cat": "mains"
+  },
+  {
+    "name": "Green Peas Masala",
+    "desc": "fresh green peas with garlic and tomato masala",
+    "page": 15,
+    "cat": "mains"
+  },
+  {
+    "name": "Dum Aloo Methi Masala",
+    "desc": "potato with fenugreek leaves",
+    "page": 15,
+    "cat": "mains"
+  },
+  {
+    "name": "Nizami Subz Handi",
+    "desc": "vegetable with rich cashew nuts gravy",
+    "page": 15,
+    "cat": "mains"
+  },
+  {
+    "name": "Achari Bhindi",
+    "desc": "pickleflavored okra",
+    "page": 15,
+    "cat": "mains"
+  },
+  {
+    "name": "Dhingri Matar",
+    "desc": "matar mushroom mixed with indian spices",
+    "page": 15,
+    "cat": "mains"
+  },
+  {
+    "name": "Indian Main Course (Kofta)",
+    "desc": "",
+    "page": 15,
+    "cat": "mains"
+  },
+  {
+    "name": "Baked Vegetable Lasagna",
+    "desc": "vegetable baked in past seats and cheese",
+    "page": 16,
+    "cat": "mains"
+  },
+  {
+    "name": "Butter Tossed Vegetable With Orange & Caper",
+    "desc": "tossed organic vegetable with caper and orange",
+    "page": 16,
+    "cat": "mains"
+  },
+  {
+    "name": "Nargisi Kofta",
+    "desc": "aloo panner dumpling served with green (spinach) gravy",
+    "page": 16,
+    "cat": "mains"
+  },
+  {
+    "name": "Cheese Hariyali Kofta",
+    "desc": "potato, paneer and cheese dumpling served with spinach gravy",
+    "page": 16,
+    "cat": "mains"
+  },
+  {
+    "name": "Shaam Savera Kofta",
+    "desc": "potato, paneer, spinach dumplings served with yellowgravy",
+    "page": 16,
+    "cat": "mains"
+  },
+  {
+    "name": "Kathal Kofta(Seasonal)",
+    "desc": "jackfruit dumplings served with yellow gravy",
+    "page": 16,
+    "cat": "mains"
+  },
+  {
+    "name": "Dhudhi Kofta",
+    "desc": "bottle gourd dumplings in yellow gravy",
+    "page": 16,
+    "cat": "mains"
+  },
+  {
+    "name": "Shirazi Kofta",
+    "desc": "paneer, khoya dumplings served with white rogani gravy",
+    "page": 16,
+    "cat": "mains"
+  },
+  {
+    "name": "Cheese Corn Kofta",
+    "desc": "cheese, corn, potato dumplingserved with yellow gravy",
+    "page": 16,
+    "cat": "mains"
+  },
+  {
+    "name": "Dry Fruit Kofta",
+    "desc": "dry fruits, paneer and khoya dumpling served with yellow shahi gravy",
+    "page": 16,
+    "cat": "mains"
+  },
+  {
+    "name": "Western Main Course",
+    "desc": "",
+    "page": 16,
+    "cat": "mains"
+  },
+  {
+    "name": "Stir Fried Vegetable",
+    "desc": "delicious veggies with sesame and soya",
+    "page": 17,
+    "cat": "mains"
+  },
+  {
+    "name": "Vegetable In Sweet & Sour Sauce",
+    "desc": "vegetable simmer in sweet and sour",
+    "page": 17,
+    "cat": "mains"
+  },
+  {
+    "name": "Roasted Potato With Pepper & Olive",
+    "desc": "potato, olive, pepper baked with ricotta cheese",
+    "page": 17,
+    "cat": "mains"
+  },
+  {
+    "name": "Butter Tossed Vegetables",
+    "desc": "vegetable sautéed with butter",
+    "page": 17,
+    "cat": "mains"
+  },
+  {
+    "name": "Roast Potatoes With Herbs",
+    "desc": "roasted potato garnished with fresh herbs",
+    "page": 17,
+    "cat": "mains"
+  },
+  {
+    "name": "Oregano And Chilly Roast Potatoes",
+    "desc": "roasted potato with orange and chilly",
+    "page": 17,
+    "cat": "mains"
+  },
+  {
+    "name": "Spinach And Corn Bake",
+    "desc": "corn and spinach baked with cheese",
+    "page": 17,
+    "cat": "mains"
+  },
+  {
+    "name": "Vegetable Au Gratin",
+    "desc": "vegetable baked with process cheese",
+    "page": 17,
+    "cat": "mains"
+  },
+  {
+    "name": "Potato Gratin With Carrot And Thyme",
+    "desc": "potato, carrot baked with cheese and thyme",
+    "page": 17,
+    "cat": "mains"
+  },
+  {
+    "name": "Baked Vegetables With Saffron Sauce",
+    "desc": "vegetable baked with cheese and saffron sauce",
+    "page": 17,
+    "cat": "mains"
+  },
+  {
+    "name": "Oriental Main Course",
+    "desc": "",
+    "page": 17,
+    "cat": "mains"
+  },
+  {
+    "name": "Stir Fried Chinese Green",
+    "desc": "exotic chinese vegetable tossed with mild garlic and chilly",
+    "page": 18,
+    "cat": "mains"
+  },
+  {
+    "name": "Schezwan Style Bean Curd",
+    "desc": "tofu in spicy chilly sauce",
+    "page": 18,
+    "cat": "mains"
+  },
+  {
+    "name": "Steamed Broccoli In Mild Garlic Sauce",
+    "desc": "broccoli tossed with garlic sauce",
+    "page": 18,
+    "cat": "mains"
+  },
+  {
+    "name": "Cottage In Black Bean Sauce",
+    "desc": "crispy cottagecheese goes with black bean sauce",
+    "page": 18,
+    "cat": "mains"
+  },
+  {
+    "name": "Fresh Mushroom In Chilly Coriander Sauce",
+    "desc": "mushroom tossed with chilly and coriander sauce",
+    "page": 18,
+    "cat": "mains"
+  },
+  {
+    "name": "Baby Corn In Hot Garlic Sauce",
+    "desc": "crispy baby corn tossed with spicy garlic sauce",
+    "page": 18,
+    "cat": "mains"
+  },
+  {
+    "name": "Exotic Vegetable In Chilly Basil Sauce",
+    "desc": "englishvegetable goes with chilly basil sauce",
+    "page": 18,
+    "cat": "mains"
+  },
+  {
+    "name": "Honey Chilly Baby Corn",
+    "desc": "crispy fried baby corn tossed with honey and chilly",
+    "page": 18,
+    "cat": "mains"
+  },
+  {
+    "name": "Schezwan Style Green Vegetable",
+    "desc": "vegetable with spicy chilly sauce",
+    "page": 18,
+    "cat": "mains"
+  },
+  {
+    "name": "Pulao",
+    "desc": "",
+    "page": 19,
+    "cat": "biryanis"
+  },
+  {
+    "name": "Kashmiri Pulao",
+    "desc": "basmatirice cooked with saffron and dry fruit",
+    "page": 19,
+    "cat": "biryanis"
+  },
+  {
+    "name": "Tomato Rice",
+    "desc": "tomato flavor basmati rice",
+    "page": 19,
+    "cat": "biryanis"
+  },
+  {
+    "name": "Jeera And Peas Pulao",
+    "desc": "basmati rice tempered with cumin seeds",
+    "page": 19,
+    "cat": "biryanis"
+  },
+  {
+    "name": "Kesariya Pulao",
+    "desc": "saffron flavoured basmati rice",
+    "page": 19,
+    "cat": "biryanis"
+  },
+  {
+    "name": "Jeera Pulao",
+    "desc": "basmati rice tempered with ghee and cumin seed",
+    "page": 19,
+    "cat": "biryanis"
+  },
+  {
+    "name": "Jeera Pyaz Pulao",
+    "desc": "basmati rice, cumin seed and onion",
+    "page": 19,
+    "cat": "biryanis"
+  },
+  {
+    "name": "Makai Pulao",
+    "desc": "rice cooked in american corn",
+    "page": 19,
+    "cat": "biryanis"
+  },
+  {
+    "name": "Masala Pulao",
+    "desc": "indian masala temper with ghee and basmati rice",
+    "page": 19,
+    "cat": "biryanis"
+  },
+  {
+    "name": "Subz Pulao",
+    "desc": "mix vegetable with rice",
+    "page": 19,
+    "cat": "biryanis"
+  },
+  {
+    "name": "Aloo Methi Ki Tehri",
+    "desc": "potato, fenugreek leaves cooked withlayer rice",
+    "page": 20,
+    "cat": "biryanis"
+  },
+  {
+    "name": "Subz Ki Tehri",
+    "desc": "vegetable, mint, corinder leaves layer rice",
+    "page": 20,
+    "cat": "biryanis"
+  },
+  {
+    "name": "Lemon Rice",
+    "desc": "lemon flavored rice",
+    "page": 20,
+    "cat": "biryanis"
+  },
+  {
+    "name": "Bisi Bele Bhaat",
+    "desc": "south indian vegetable khichdi",
+    "page": 20,
+    "cat": "biryanis"
+  },
+  {
+    "name": "Subz Hyderabadi Biryani",
+    "desc": "vegetable layered basmati rice cooked with saffron,ghee,brown onion and rose water",
+    "page": 20,
+    "cat": "biryanis"
+  },
+  {
+    "name": "Nizami Tarkari Biryani",
+    "desc": "layered basmati rice cooked with nizami style",
+    "page": 20,
+    "cat": "biryanis"
+  },
+  {
+    "name": "Subz Nawabi Lukhnowi Biryani",
+    "desc": "vegetable layered basmati rice cooked with dry fruits, saffron,ghee ,brown onion and rose",
+    "page": 20,
+    "cat": "biryanis"
+  },
+  {
+    "name": "Water)",
+    "desc": "",
+    "page": 20,
+    "cat": "biryanis"
+  },
+  {
+    "name": "Biryani Vegetarian",
+    "desc": "",
+    "page": 20,
+    "cat": "biryanis"
+  },
+  {
+    "name": "Vegetablehakka Noodle",
+    "desc": "noodles tossed with vegetable",
+    "page": 21,
+    "cat": "biryanis"
+  },
+  {
+    "name": "Schezwan Noodle",
+    "desc": "noodles tossed with vegetable and chilly",
+    "page": 21,
+    "cat": "biryanis"
+  },
+  {
+    "name": "Chilly Garlic Noodle",
+    "desc": "chilly garlic flavored noodles",
+    "page": 21,
+    "cat": "biryanis"
+  },
+  {
+    "name": "Singapore Noodle",
+    "desc": "noodles tossed with curry powder and beans sprouts",
+    "page": 21,
+    "cat": "biryanis"
+  },
+  {
+    "name": "Chilly Coriander Noodle",
+    "desc": "noodles tossed with chilly and coriander leaves",
+    "page": 21,
+    "cat": "biryanis"
+  },
+  {
+    "name": "Burnt Garlic Noodles",
+    "desc": "garlic flavored noodles garnish with spring onion",
+    "page": 21,
+    "cat": "biryanis"
+  },
+  {
+    "name": "Vegetable Fried Rice",
+    "desc": "",
+    "page": 21,
+    "cat": "biryanis"
+  },
+  {
+    "name": "Burnt Garlic Fried Rice",
+    "desc": "garlic flavored fried rice garnish with spring onion",
+    "page": 21,
+    "cat": "biryanis"
+  },
+  {
+    "name": "Ginger And Coriander Fried Rice",
+    "desc": "rice tossed with ginger, coriander and soya",
+    "page": 21,
+    "cat": "biryanis"
+  },
+  {
+    "name": "Singapore Vegetable Fried Rice",
+    "desc": "rice, pepper, onion",
+    "page": 21,
+    "cat": "biryanis"
+  },
+  {
+    "name": "Schezwan Fried Rice",
+    "desc": "rice tossed with red chilly paste and soya, vinegar",
+    "page": 22,
+    "cat": "biryanis"
+  },
+  {
+    "name": "Three Peppers Fried Rice",
+    "desc": "fried rice with three color pepper",
+    "page": 22,
+    "cat": "biryanis"
+  },
+  {
+    "name": "Soya Chilly Fried Rice",
+    "desc": "soya and chilly flavor fried rice",
+    "page": 22,
+    "cat": "biryanis"
+  },
+  {
+    "name": "Dal Peshawari",
+    "desc": "black lentil cooked with butter cream overnight tandoor",
+    "page": 23,
+    "cat": "dals"
+  },
+  {
+    "name": "Dal Tadka",
+    "desc": "yellow lentil tempered with garlic,onion , tomato",
+    "page": 23,
+    "cat": "dals"
+  },
+  {
+    "name": "Dal Fry",
+    "desc": "yellow lentil, dry red chilly ,cumin and fresh coriander",
+    "page": 23,
+    "cat": "dals"
+  },
+  {
+    "name": "Dal Miloni",
+    "desc": "mix lentil temper with indian spices",
+    "page": 23,
+    "cat": "dals"
+  },
+  {
+    "name": "Dal Dhabewali",
+    "desc": "yellow lentil temper with onion, tomato and ghee",
+    "page": 23,
+    "cat": "dals"
+  },
+  {
+    "name": "Dal Amritsari",
+    "desc": "black and bengal gram lentil temper with indian masala",
+    "page": 23,
+    "cat": "dals"
+  },
+  {
+    "name": "Dal Palak",
+    "desc": "yellow lentil with spinach",
+    "page": 23,
+    "cat": "dals"
+  },
+  {
+    "name": "Dal Mughlai",
+    "desc": "yellowlentil cooked with curd and fresh cream",
+    "page": 23,
+    "cat": "dals"
+  },
+  {
+    "name": "Hara Moong Dal Tadka",
+    "desc": "green lentil temper with onion,tomato and green chilly",
+    "page": 23,
+    "cat": "dals"
+  },
+  {
+    "name": "Dal Bukhara",
+    "desc": "black lentil cooked with white butter,cream and tomato puree",
+    "page": 23,
+    "cat": "dals"
+  },
+  {
+    "name": "Dal Awadhi",
+    "desc": "lucknowi style dal preparation",
+    "page": 24,
+    "cat": "dals"
+  },
+  {
+    "name": "Rajma Masala",
+    "desc": "red eye bean cooked with kashmiri style",
+    "page": 24,
+    "cat": "dals"
+  },
+  {
+    "name": "Chole",
+    "desc": "white chickpea cooked in punjabi style",
+    "page": 24,
+    "cat": "dals"
+  },
+  {
+    "name": "Pindi Chole",
+    "desc": "punjabi style dry chickpea preparation",
+    "page": 24,
+    "cat": "dals"
+  },
+  {
+    "name": "Punjabi Kadhi",
+    "desc": "gram flour cooked with yogurt",
+    "page": 24,
+    "cat": "dals"
+  },
+  {
+    "name": "Gujarati Kadhi",
+    "desc": "white flour cooked with yogurt and sugar",
+    "page": 24,
+    "cat": "dals"
+  },
+  {
+    "name": "( I N D I A N / W E S T E R N )",
+    "desc": "",
+    "page": 25,
+    "cat": "breads"
+  },
+  {
+    "name": "N A A N",
+    "desc": "i n d i a n  b r e a d s",
+    "page": 25,
+    "cat": "breads"
+  },
+  {
+    "name": "B U T T E R  N A A N",
+    "desc": "i n d i a n  b r e a d  w i t h  b u t t e r",
+    "page": 25,
+    "cat": "breads"
+  },
+  {
+    "name": "G A R L I C  N A A N",
+    "desc": "i n d i a n  b r e a d  w i t h  g a r l i c  a n d  b u t t e r",
+    "page": 25,
+    "cat": "breads"
+  },
+  {
+    "name": "C H I L L Y  G A R L I C  N A A N",
+    "desc": "i n d i a n  b r e a d  w i t h  c h i l l y  a n d  g a r l i c  w i t h  b u t t e r",
+    "page": 25,
+    "cat": "breads"
+  },
+  {
+    "name": "C H E E S E  C H I L L Y  N A A N",
+    "desc": "i n d i a n  b r e a d  w i t h  c h e e s e  a n d  c h i l l y",
+    "page": 25,
+    "cat": "breads"
+  },
+  {
+    "name": "K A L O N J I  N A A N",
+    "desc": "i n d i a n  b r e a d  w i t h  k a l o n j i",
+    "page": 25,
+    "cat": "breads"
+  },
+  {
+    "name": "S E S A M E  N A A N",
+    "desc": "i n d i a n  b r e a d  w i t h  s e s a m e",
+    "page": 25,
+    "cat": "breads"
+  },
+  {
+    "name": "L A C H H A  P A R A T H A",
+    "desc": "l a y e r e d  i n d i a n  b r e a d",
+    "page": 25,
+    "cat": "breads"
+  },
+  {
+    "name": "K A L I  M I R C H  L A C H C H A  P A R A T H A",
+    "desc": "l a y e r e d  i n d i a n  b r e a d  w i t h  b l a c k  p e p p e r",
+    "page": 25,
+    "cat": "breads"
+  },
+  {
+    "name": "L A L  M I R C H  L A C H C H A  P A R A T H A",
+    "desc": "",
+    "page": 25,
+    "cat": "breads"
+  },
+  {
+    "name": "(Layered Indian Bread With Red Pepper)",
+    "desc": "",
+    "page": 26,
+    "cat": "breads"
+  },
+  {
+    "name": "Methi Paratha",
+    "desc": "indian breads with fenugreek leaves",
+    "page": 26,
+    "cat": "breads"
+  },
+  {
+    "name": "Pudina Paratha",
+    "desc": "mint flavored indian bread",
+    "page": 26,
+    "cat": "breads"
+  },
+  {
+    "name": "Missi Roti",
+    "desc": "gram flour indian bread with butter",
+    "page": 26,
+    "cat": "breads"
+  },
+  {
+    "name": "Methi Roti",
+    "desc": "indian bread with fenugreek leaves",
+    "page": 26,
+    "cat": "breads"
+  },
+  {
+    "name": "Tandoori Roti",
+    "desc": "wheat flour indian bread",
+    "page": 26,
+    "cat": "breads"
+  },
+  {
+    "name": "Palak Ki Roti",
+    "desc": "spinach withwheat flour",
+    "page": 26,
+    "cat": "breads"
+  },
+  {
+    "name": "Tawa Phulka",
+    "desc": "wheat flour indian bread",
+    "page": 26,
+    "cat": "breads"
+  },
+  {
+    "name": "Raita",
+    "desc": "",
+    "page": 26,
+    "cat": "breads"
+  },
+  {
+    "name": "Boondi Raita",
+    "desc": "yogurt with gram flour small dumpling",
+    "page": 26,
+    "cat": "breads"
+  },
+  {
+    "name": "Mix Veg Raita",
+    "desc": "cucumber, tomato, green chili with yogurt",
+    "page": 26,
+    "cat": "breads"
+  },
+  {
+    "name": "Pineapple Raita",
+    "desc": "chopped pineapple with yogurt",
+    "page": 26,
+    "cat": "breads"
+  },
+  {
+    "name": "Burani Raita",
+    "desc": "",
+    "page": 26,
+    "cat": "breads"
+  },
+  {
+    "name": "(Burntgarlic With Yogurt)",
+    "desc": "",
+    "page": 27,
+    "cat": "breads"
+  },
+  {
+    "name": "Boondi Pudina Raita",
+    "desc": "mint flavored yogurt",
+    "page": 27,
+    "cat": "breads"
+  },
+  {
+    "name": "Kachumber Raita",
+    "desc": "onion, cucumber, tomato, green chilly with yogurt",
+    "page": 27,
+    "cat": "breads"
+  },
+  {
+    "name": "Onion Tomato Raita",
+    "desc": "onion tomato with yogurt",
+    "page": 27,
+    "cat": "breads"
+  },
+  {
+    "name": "Palak Aur Anar Ka Raita",
+    "desc": "spinach, pomegranate with yogurt",
+    "page": 27,
+    "cat": "breads"
+  },
+  {
+    "name": "Cucumber Raita",
+    "desc": "cucumber with yogurt",
+    "page": 27,
+    "cat": "breads"
+  },
+  {
+    "name": "Sweetened Yogurt",
+    "desc": "sweet yogurt",
+    "page": 27,
+    "cat": "breads"
+  },
+  {
+    "name": "Dahi Bhalla",
+    "desc": "white dal dumpling with yogurt",
+    "page": 27,
+    "cat": "breads"
+  },
+  {
+    "name": "Dahi Vada",
+    "desc": "white dal dumpling with yogurt tempered with curry leaves and mustard",
+    "page": 27,
+    "cat": "breads"
+  },
+  {
+    "name": "Aloo Pudina Raita",
+    "desc": "potato and mint yogurt",
+    "page": 27,
+    "cat": "breads"
+  },
+  {
+    "name": "C O U N T E R",
+    "desc": "",
+    "page": 28,
+    "cat": "live_counters"
+  },
+  {
+    "name": "Italian Counter",
+    "desc": "NACHOS WITH CHEESE SAUCE OR SALSA",
+    "page": 29,
+    "cat": "live_counters"
+  },
+  {
+    "name": "Refired Beans Tachos",
+    "desc": "",
+    "page": 29,
+    "cat": "live_counters"
+  },
+  {
+    "name": "02 Types Of Quesadillas",
+    "desc": "",
+    "page": 29,
+    "cat": "live_counters"
+  },
+  {
+    "name": "Cheese Quesadillas",
+    "desc": "",
+    "page": 29,
+    "cat": "live_counters"
+  },
+  {
+    "name": "Veg. Quesadillas",
+    "desc": "",
+    "page": 29,
+    "cat": "live_counters"
+  },
+  {
+    "name": "Baked Enchiladas",
+    "desc": "",
+    "page": 29,
+    "cat": "live_counters"
+  },
+  {
+    "name": "3 Typesof Pasta",
+    "desc": "",
+    "page": 29,
+    "cat": "live_counters"
+  },
+  {
+    "name": "Formaggi(Cheese Sauce)",
+    "desc": "",
+    "page": 29,
+    "cat": "live_counters"
+  },
+  {
+    "name": "Alla-Arrabbiata (Tomato Sauce)",
+    "desc": "",
+    "page": 29,
+    "cat": "live_counters"
+  },
+  {
+    "name": "Al-Pesto Genovese(Green Pesto Sauce)",
+    "desc": "",
+    "page": 29,
+    "cat": "live_counters"
+  },
+  {
+    "name": "Assorted Pizza",
+    "desc": "",
+    "page": 29,
+    "cat": "live_counters"
+  },
+  {
+    "name": "Risotto",
+    "desc": "",
+    "page": 29,
+    "cat": "live_counters"
+  },
+  {
+    "name": "3 Types Of Bakes Dish",
+    "desc": "",
+    "page": 29,
+    "cat": "live_counters"
+  },
+  {
+    "name": "Cannlloni Alla Florentina",
+    "desc": "",
+    "page": 29,
+    "cat": "live_counters"
+  },
+  {
+    "name": "Lasagne Alla Napoletana",
+    "desc": "",
+    "page": 29,
+    "cat": "live_counters"
+  },
+  {
+    "name": "Lasagne Alla Verdure",
+    "desc": "",
+    "page": 29,
+    "cat": "live_counters"
+  },
+  {
+    "name": "Chocolate Bomb",
+    "desc": "",
+    "page": 29,
+    "cat": "live_counters"
+  },
+  {
+    "name": "Mexican Counter",
+    "desc": "",
+    "page": 29,
+    "cat": "live_counters"
+  },
+  {
+    "name": "Exotic Vegetable",
+    "desc": "",
+    "page": 30,
+    "cat": "live_counters"
+  },
+  {
+    "name": "Broccoli",
+    "desc": "",
+    "page": 30,
+    "cat": "live_counters"
+  },
+  {
+    "name": "Zucchini",
+    "desc": "FALAFEL WITH PITA BREAD",
+    "page": 30,
+    "cat": "live_counters"
+  },
+  {
+    "name": "Shawarma Counter",
+    "desc": "",
+    "page": 30,
+    "cat": "live_counters"
+  },
+  {
+    "name": "Fattus",
+    "desc": "",
+    "page": 30,
+    "cat": "live_counters"
+  },
+  {
+    "name": "Tabuleh",
+    "desc": "",
+    "page": 30,
+    "cat": "live_counters"
+  },
+  {
+    "name": "Hummus",
+    "desc": "",
+    "page": 30,
+    "cat": "live_counters"
+  },
+  {
+    "name": "Babaganus",
+    "desc": "",
+    "page": 30,
+    "cat": "live_counters"
+  },
+  {
+    "name": "Lebneh",
+    "desc": "",
+    "page": 30,
+    "cat": "live_counters"
+  },
+  {
+    "name": "Khudar Bil Harissa",
+    "desc": "",
+    "page": 30,
+    "cat": "live_counters"
+  },
+  {
+    "name": "Vegetable Tagine",
+    "desc": "",
+    "page": 30,
+    "cat": "live_counters"
+  },
+  {
+    "name": "Arroz Con Verduras (Mexican Rice)",
+    "desc": "CHILLY RELENOSE WITH SOUR CREAM",
+    "page": 30,
+    "cat": "live_counters"
+  },
+  {
+    "name": "03 Beans And Jalapenos Stew",
+    "desc": "",
+    "page": 30,
+    "cat": "live_counters"
+  },
+  {
+    "name": "Chilly Corn Verduras",
+    "desc": "",
+    "page": 30,
+    "cat": "live_counters"
+  },
+  {
+    "name": "Lebanese Counter",
+    "desc": "",
+    "page": 30,
+    "cat": "live_counters"
+  },
+  {
+    "name": "Mongolian Counter",
+    "desc": "",
+    "page": 30,
+    "cat": "live_counters"
+  },
+  {
+    "name": "Red Peppers",
+    "desc": "",
+    "page": 31,
+    "cat": "live_counters"
+  },
+  {
+    "name": "Yellow Peppers",
+    "desc": "",
+    "page": 31,
+    "cat": "live_counters"
+  },
+  {
+    "name": "Pok Choy",
+    "desc": "",
+    "page": 31,
+    "cat": "live_counters"
+  },
+  {
+    "name": "Mushroom",
+    "desc": "",
+    "page": 31,
+    "cat": "live_counters"
+  },
+  {
+    "name": "Baby Corn",
+    "desc": "",
+    "page": 31,
+    "cat": "live_counters"
+  },
+  {
+    "name": "Red Cabbage",
+    "desc": "",
+    "page": 31,
+    "cat": "live_counters"
+  },
+  {
+    "name": "Chinese Cabbage",
+    "desc": "",
+    "page": 31,
+    "cat": "live_counters"
+  },
+  {
+    "name": "Lemon Chilly Coriander Sauce",
+    "desc": "",
+    "page": 31,
+    "cat": "live_counters"
+  },
+  {
+    "name": "Noodles",
+    "desc": "",
+    "page": 31,
+    "cat": "live_counters"
+  },
+  {
+    "name": "Steamed Rice",
+    "desc": "",
+    "page": 31,
+    "cat": "live_counters"
+  },
+  {
+    "name": "Oriental Counter",
+    "desc": "",
+    "page": 31,
+    "cat": "live_counters"
+  },
+  {
+    "name": "03 Treasure Vegetable In Black Bean Sauce",
+    "desc": "",
+    "page": 31,
+    "cat": "live_counters"
+  },
+  {
+    "name": "Exotic Veg In Sweet N Sour Sauce",
+    "desc": "",
+    "page": 31,
+    "cat": "live_counters"
+  },
+  {
+    "name": "Veg Ball In Hot Garlic Sauce",
+    "desc": "",
+    "page": 31,
+    "cat": "live_counters"
+  },
+  {
+    "name": "Chilly Paneer",
+    "desc": "",
+    "page": 31,
+    "cat": "live_counters"
+  },
+  {
+    "name": "Veg Manchurian",
+    "desc": "",
+    "page": 31,
+    "cat": "live_counters"
+  },
+  {
+    "name": "Vegetable Hakka Noodles",
+    "desc": "",
+    "page": 31,
+    "cat": "live_counters"
+  },
+  {
+    "name": "Chilly Garlicnoodles",
+    "desc": "",
+    "page": 31,
+    "cat": "live_counters"
+  },
+  {
+    "name": "Singapore Noodles",
+    "desc": "",
+    "page": 31,
+    "cat": "live_counters"
+  },
+  {
+    "name": "Burnt Garlic Fried Rice",
+    "desc": "",
+    "page": 31,
+    "cat": "live_counters"
+  },
+  {
+    "name": "Ginger Coriander Fried Rice",
+    "desc": "",
+    "page": 32,
+    "cat": "live_counters"
+  },
+  {
+    "name": "03 Pepper Fried Rice",
+    "desc": "",
+    "page": 32,
+    "cat": "live_counters"
+  },
+  {
+    "name": "Schezwan Fried Rice",
+    "desc": "",
+    "page": 32,
+    "cat": "live_counters"
+  },
+  {
+    "name": "Stir Fried Chinese Green",
+    "desc": "GREEN THAI CURRY",
+    "page": 32,
+    "cat": "live_counters"
+  },
+  {
+    "name": "Lemon Basil Rice",
+    "desc": "",
+    "page": 32,
+    "cat": "live_counters"
+  },
+  {
+    "name": "Chat Counter Chat (A)",
+    "desc": "",
+    "page": 33,
+    "cat": "live_counters"
+  },
+  {
+    "name": "Delhi Chat",
+    "desc": "",
+    "page": 33,
+    "cat": "live_counters"
+  },
+  {
+    "name": "Handi Mutter Chat",
+    "desc": "",
+    "page": 33,
+    "cat": "live_counters"
+  },
+  {
+    "name": "Paapdi Chat",
+    "desc": "",
+    "page": 33,
+    "cat": "live_counters"
+  },
+  {
+    "name": "Kalmi Bada Chat",
+    "desc": "",
+    "page": 33,
+    "cat": "live_counters"
+  },
+  {
+    "name": "Pan Patta Chat",
+    "desc": "",
+    "page": 33,
+    "cat": "live_counters"
+  },
+  {
+    "name": "Tomato Chat",
+    "desc": "",
+    "page": 33,
+    "cat": "live_counters"
+  },
+  {
+    "name": "Khasta Chat",
+    "desc": "",
+    "page": 33,
+    "cat": "live_counters"
+  },
+  {
+    "name": "Ankurit Chat",
+    "desc": "",
+    "page": 33,
+    "cat": "live_counters"
+  },
+  {
+    "name": "Chana Chat",
+    "desc": "",
+    "page": 33,
+    "cat": "live_counters"
+  },
+  {
+    "name": "Salad Mix Chat",
+    "desc": "",
+    "page": 33,
+    "cat": "live_counters"
+  },
+  {
+    "name": "Parmal Chat",
+    "desc": "",
+    "page": 33,
+    "cat": "live_counters"
+  },
+  {
+    "name": "Churmur Chat",
+    "desc": "",
+    "page": 33,
+    "cat": "live_counters"
+  },
+  {
+    "name": "Banarsi Chat",
+    "desc": "",
+    "page": 33,
+    "cat": "live_counters"
+  },
+  {
+    "name": "Rajasthani Chat",
+    "desc": "",
+    "page": 33,
+    "cat": "live_counters"
+  },
+  {
+    "name": "Hot Chat",
+    "desc": "",
+    "page": 33,
+    "cat": "live_counters"
+  },
+  {
+    "name": "Mutter Aloo Finger Chat",
+    "desc": "",
+    "page": 33,
+    "cat": "live_counters"
+  },
+  {
+    "name": "Gaathiya Chat",
+    "desc": "",
+    "page": 33,
+    "cat": "live_counters"
+  },
+  {
+    "name": "Lachha Tokri Chat",
+    "desc": "",
+    "page": 33,
+    "cat": "live_counters"
+  },
+  {
+    "name": "Aloo Chat",
+    "desc": "",
+    "page": 33,
+    "cat": "live_counters"
+  },
+  {
+    "name": "Aloo Garadu Chat",
+    "desc": "",
+    "page": 33,
+    "cat": "live_counters"
+  },
+  {
+    "name": "Agre Ka Bhalla",
+    "desc": "",
+    "page": 34,
+    "cat": "live_counters"
+  },
+  {
+    "name": "Punjabi Bhalla",
+    "desc": "",
+    "page": 34,
+    "cat": "live_counters"
+  },
+  {
+    "name": "Chhole Tikiya",
+    "desc": "",
+    "page": 34,
+    "cat": "live_counters"
+  },
+  {
+    "name": "Sabudane Ki Tikiya",
+    "desc": "",
+    "page": 34,
+    "cat": "live_counters"
+  },
+  {
+    "name": "Kaila Ki Tikiya",
+    "desc": "",
+    "page": 34,
+    "cat": "live_counters"
+  },
+  {
+    "name": "Bhutte Ka Kees",
+    "desc": "",
+    "page": 34,
+    "cat": "live_counters"
+  },
+  {
+    "name": "Sabudana Khichdi",
+    "desc": "",
+    "page": 34,
+    "cat": "live_counters"
+  },
+  {
+    "name": "Sabudana Bada",
+    "desc": "",
+    "page": 34,
+    "cat": "live_counters"
+  },
+  {
+    "name": "Corn Palak Chat",
+    "desc": "",
+    "page": 34,
+    "cat": "live_counters"
+  },
+  {
+    "name": "Palak Kurkuri Chat",
+    "desc": "",
+    "page": 34,
+    "cat": "live_counters"
+  },
+  {
+    "name": "Kalmi Vada",
+    "desc": "",
+    "page": 34,
+    "cat": "live_counters"
+  },
+  {
+    "name": "Raj Kachori",
+    "desc": "",
+    "page": 34,
+    "cat": "live_counters"
+  },
+  {
+    "name": "Assorted Pani Puri",
+    "desc": "",
+    "page": 34,
+    "cat": "live_counters"
+  },
+  {
+    "name": "Agre Ka Paratha",
+    "desc": "",
+    "page": 34,
+    "cat": "live_counters"
+  },
+  {
+    "name": "Paneer Paratha + Aloo Sabji (Dry)",
+    "desc": "",
+    "page": 34,
+    "cat": "live_counters"
+  },
+  {
+    "name": "Mutterparatha + Arbi Ka Jhol",
+    "desc": "",
+    "page": 34,
+    "cat": "live_counters"
+  },
+  {
+    "name": "Methi Paratha + Kaddu Ki Sabbji & Dahi",
+    "desc": "",
+    "page": 34,
+    "cat": "live_counters"
+  },
+  {
+    "name": "Gobhi Paratha",
+    "desc": "",
+    "page": 34,
+    "cat": "live_counters"
+  },
+  {
+    "name": "Paratha Counter",
+    "desc": "",
+    "page": 34,
+    "cat": "live_counters"
+  },
+  {
+    "name": "Punjabi (Amritsari Counter)",
+    "desc": "",
+    "page": 35,
+    "cat": "live_counters"
+  },
+  {
+    "name": "Kurkuri Bhindi",
+    "desc": "",
+    "page": 35,
+    "cat": "live_counters"
+  },
+  {
+    "name": "Soyabean Malai Chap",
+    "desc": "",
+    "page": 35,
+    "cat": "live_counters"
+  },
+  {
+    "name": "White Gravy Paneer",
+    "desc": "",
+    "page": 35,
+    "cat": "live_counters"
+  },
+  {
+    "name": "Aloo Methi",
+    "desc": "",
+    "page": 35,
+    "cat": "live_counters"
+  },
+  {
+    "name": "Baigan Bharta",
+    "desc": "",
+    "page": 35,
+    "cat": "live_counters"
+  },
+  {
+    "name": "Amritsari Chole",
+    "desc": "",
+    "page": 35,
+    "cat": "live_counters"
+  },
+  {
+    "name": "Dal Makhani",
+    "desc": "",
+    "page": 35,
+    "cat": "live_counters"
+  },
+  {
+    "name": "Stuff Karela",
+    "desc": "",
+    "page": 35,
+    "cat": "live_counters"
+  },
+  {
+    "name": "Rajma Rice",
+    "desc": "",
+    "page": 35,
+    "cat": "live_counters"
+  },
+  {
+    "name": "Palak Paneer",
+    "desc": "",
+    "page": 35,
+    "cat": "live_counters"
+  },
+  {
+    "name": "Paneer Bhurjee",
+    "desc": "",
+    "page": 35,
+    "cat": "live_counters"
+  },
+  {
+    "name": "Masala Baigan",
+    "desc": "",
+    "page": 35,
+    "cat": "live_counters"
+  },
+  {
+    "name": "Shahi Paneer",
+    "desc": "",
+    "page": 35,
+    "cat": "live_counters"
+  },
+  {
+    "name": "Sarso Ka Saag",
+    "desc": "",
+    "page": 35,
+    "cat": "live_counters"
+  },
+  {
+    "name": "Pyaz Imli Ki Chutney",
+    "desc": "",
+    "page": 35,
+    "cat": "live_counters"
+  },
+  {
+    "name": "Aloo Kulcha",
+    "desc": "",
+    "page": 35,
+    "cat": "live_counters"
+  },
+  {
+    "name": "Gobhi Kulcha",
+    "desc": "",
+    "page": 35,
+    "cat": "live_counters"
+  },
+  {
+    "name": "Pyaz Kulcha",
+    "desc": "",
+    "page": 35,
+    "cat": "live_counters"
+  },
+  {
+    "name": "Missi Roti",
+    "desc": "",
+    "page": 35,
+    "cat": "live_counters"
+  },
+  {
+    "name": "Laccha Paratha",
+    "desc": "",
+    "page": 35,
+    "cat": "live_counters"
+  },
+  {
+    "name": "Makke Ki Roti",
+    "desc": "",
+    "page": 35,
+    "cat": "live_counters"
+  },
+  {
+    "name": "Kandhari Naan",
+    "desc": "",
+    "page": 36,
+    "cat": "live_counters"
+  },
+  {
+    "name": "Lassi",
+    "desc": "",
+    "page": 36,
+    "cat": "live_counters"
+  },
+  {
+    "name": "South Indian Counter",
+    "desc": "",
+    "page": 36,
+    "cat": "live_counters"
+  },
+  {
+    "name": "Butter Idli",
+    "desc": "",
+    "page": 36,
+    "cat": "live_counters"
+  },
+  {
+    "name": "Bisi Bella Bhat",
+    "desc": "",
+    "page": 36,
+    "cat": "live_counters"
+  },
+  {
+    "name": "Live Counter Assorted Dosa",
+    "desc": "MASALA DOSA,CHEESE DOSA, MYSORE MASALA DOSA, PLAIN DOSA",
+    "page": 36,
+    "cat": "live_counters"
+  },
+  {
+    "name": "Medu Vada",
+    "desc": "",
+    "page": 36,
+    "cat": "live_counters"
+  },
+  {
+    "name": "Onion & Green Chilliuttampan",
+    "desc": "",
+    "page": 36,
+    "cat": "live_counters"
+  },
+  {
+    "name": "Cheese Uttampan",
+    "desc": "",
+    "page": 36,
+    "cat": "live_counters"
+  },
+  {
+    "name": "Tomato Uttampan",
+    "desc": "",
+    "page": 36,
+    "cat": "live_counters"
+  },
+  {
+    "name": "Mix Veg Uttampan",
+    "desc": "",
+    "page": 36,
+    "cat": "live_counters"
+  },
+  {
+    "name": "Rajasthani Special Counter",
+    "desc": "",
+    "page": 36,
+    "cat": "live_counters"
+  },
+  {
+    "name": "Bhaji List",
+    "desc": "",
+    "page": 36,
+    "cat": "live_counters"
+  },
+  {
+    "name": "Methi Mangodi",
+    "desc": "",
+    "page": 36,
+    "cat": "live_counters"
+  },
+  {
+    "name": "Ker Sangri",
+    "desc": "",
+    "page": 36,
+    "cat": "live_counters"
+  },
+  {
+    "name": "Kachri Gawar Fali",
+    "desc": "",
+    "page": 36,
+    "cat": "live_counters"
+  },
+  {
+    "name": "Panchmel Dal",
+    "desc": "",
+    "page": 36,
+    "cat": "live_counters"
+  },
+  {
+    "name": "Papad Badi",
+    "desc": "",
+    "page": 36,
+    "cat": "live_counters"
+  },
+  {
+    "name": "Mirchi Ka Thessa",
+    "desc": "",
+    "page": 36,
+    "cat": "live_counters"
+  },
+  {
+    "name": "Besan Gatta",
+    "desc": "",
+    "page": 36,
+    "cat": "live_counters"
+  },
+  {
+    "name": "Panchkuta",
+    "desc": "",
+    "page": 37,
+    "cat": "live_counters"
+  },
+  {
+    "name": "Pyaz Ka Besan",
+    "desc": "",
+    "page": 37,
+    "cat": "live_counters"
+  },
+  {
+    "name": "Mogari Badi",
+    "desc": "",
+    "page": 37,
+    "cat": "live_counters"
+  },
+  {
+    "name": "Bhor Bhaji",
+    "desc": "",
+    "page": 37,
+    "cat": "live_counters"
+  },
+  {
+    "name": "Angur Kakdi",
+    "desc": "",
+    "page": 37,
+    "cat": "live_counters"
+  },
+  {
+    "name": "Jam Sabji",
+    "desc": "",
+    "page": 37,
+    "cat": "live_counters"
+  },
+  {
+    "name": "Haldi Ki Sabji",
+    "desc": "",
+    "page": 37,
+    "cat": "live_counters"
+  },
+  {
+    "name": "Methi Dana",
+    "desc": "",
+    "page": 37,
+    "cat": "live_counters"
+  },
+  {
+    "name": "Bharwa Pyaz",
+    "desc": "",
+    "page": 37,
+    "cat": "live_counters"
+  },
+  {
+    "name": "Mooli Patta Ki Sabji",
+    "desc": "",
+    "page": 37,
+    "cat": "live_counters"
+  },
+  {
+    "name": "Urad Dal",
+    "desc": "",
+    "page": 37,
+    "cat": "live_counters"
+  },
+  {
+    "name": "Navratan Kadi",
+    "desc": "",
+    "page": 37,
+    "cat": "live_counters"
+  },
+  {
+    "name": "Hing Dal",
+    "desc": "",
+    "page": 37,
+    "cat": "live_counters"
+  },
+  {
+    "name": "Dal Bhaji",
+    "desc": "",
+    "page": 37,
+    "cat": "live_counters"
+  },
+  {
+    "name": "Bajra Khichda + Gud + Ghee",
+    "desc": "",
+    "page": 37,
+    "cat": "live_counters"
+  },
+  {
+    "name": "Makka Rav + Chach + Gehu Daliya",
+    "desc": "",
+    "page": 37,
+    "cat": "live_counters"
+  },
+  {
+    "name": "Govind Gatta",
+    "desc": "",
+    "page": 37,
+    "cat": "live_counters"
+  },
+  {
+    "name": "Mithai",
+    "desc": "",
+    "page": 38,
+    "cat": "desserts"
+  },
+  {
+    "name": "Rasgulla",
+    "desc": "cottage cheese cooked with sugar syrup",
+    "page": 38,
+    "cat": "desserts"
+  },
+  {
+    "name": "Kheer Kadam",
+    "desc": "minced rasgulla coated with khoya and milk powder",
+    "page": 38,
+    "cat": "desserts"
+  },
+  {
+    "name": "Rajbhog",
+    "desc": "saffron flavor cottage cooked with sugar syrup",
+    "page": 38,
+    "cat": "desserts"
+  },
+  {
+    "name": "Sitabhog",
+    "desc": "bengali popular sweet",
+    "page": 38,
+    "cat": "desserts"
+  },
+  {
+    "name": "Sandesh",
+    "desc": "cottagecheese, sugar, white flour and milk powder",
+    "page": 38,
+    "cat": "desserts"
+  },
+  {
+    "name": "Chanar Payesh",
+    "desc": "cottage cheese balls with thin milk",
+    "page": 38,
+    "cat": "desserts"
+  },
+  {
+    "name": "Malai Chom Chom",
+    "desc": "fried condensed milk stuffed with flavor fine cottage cheese",
+    "page": 38,
+    "cat": "desserts"
+  },
+  {
+    "name": "Kalo Jam",
+    "desc": "dried whole milk deep fried, soaked with sugar syrup",
+    "page": 38,
+    "cat": "desserts"
+  },
+  {
+    "name": "Ghevar",
+    "desc": "sweetmade with all purpose flour and soaked in sugar syrup",
+    "page": 38,
+    "cat": "desserts"
+  },
+  {
+    "name": "Churma",
+    "desc": "",
+    "page": 38,
+    "cat": "desserts"
+  },
+  {
+    "name": "(It Is Coarsely Ground Wheat Crushed And Cooked With Ghee And Sugar)",
+    "desc": "",
+    "page": 39,
+    "cat": "desserts"
+  },
+  {
+    "name": "Gujia",
+    "desc": "gujia is a sweet dumpling made with suji or maida flour wheat flour and stuffed with khoya",
+    "page": 39,
+    "cat": "desserts"
+  },
+  {
+    "name": "Imarti",
+    "desc": "it is made by deep-frying urad flour batter in a kind of circular flower shape, then soaked in",
+    "page": 39,
+    "cat": "desserts"
+  },
+  {
+    "name": "Sugar Syrup)",
+    "desc": "",
+    "page": 39,
+    "cat": "desserts"
+  },
+  {
+    "name": "Mohanthal",
+    "desc": "a rich besan burfi with loads of dried fruits",
+    "page": 39,
+    "cat": "desserts"
+  },
+  {
+    "name": "Anjeer Roll (Extra Cost)",
+    "desc": "cashew nut roll stuffed with fig",
+    "page": 39,
+    "cat": "desserts"
+  },
+  {
+    "name": "Kesar Kaju Katli (Extra Cost)",
+    "desc": "saffron flavor cashew nut cake",
+    "page": 39,
+    "cat": "desserts"
+  },
+  {
+    "name": "Kaju Pista Roll (Extra Cost)",
+    "desc": "cashew nut roll stuffed with pista",
+    "page": 39,
+    "cat": "desserts"
+  },
+  {
+    "name": "Khus Khus Roll (Extra Cost)",
+    "desc": "cashew nut roll coated with poppy seeds",
+    "page": 39,
+    "cat": "desserts"
+  },
+  {
+    "name": "Besan Ki Barfi",
+    "desc": "gram flour dry cake",
+    "page": 39,
+    "cat": "desserts"
+  },
+  {
+    "name": "Churma Ladoo",
+    "desc": "deepfried wheat flour dough balls, mixed with ghee and jaggery and shaped into laddoos",
+    "page": 39,
+    "cat": "desserts"
+  },
+  {
+    "name": "Badam Ka Halwa",
+    "desc": "made with almonds, sugar and clarified butter or ghee",
+    "page": 39,
+    "cat": "desserts"
+  },
+  {
+    "name": "Mawa Kachori",
+    "desc": "",
+    "page": 39,
+    "cat": "desserts"
+  },
+  {
+    "name": "(Rich Dry Fruit And Mava (Khoya) Stuffed Crisp Deep Fried Kachorisare Coated In Sugar Syrup)",
+    "desc": "",
+    "page": 40,
+    "cat": "desserts"
+  },
+  {
+    "name": "Kesar Peda",
+    "desc": "saffron flavoured milk fudge balls",
+    "page": 40,
+    "cat": "desserts"
+  },
+  {
+    "name": "Makkhan-Bada",
+    "desc": "sugar dipped sweet pastries",
+    "page": 40,
+    "cat": "desserts"
+  },
+  {
+    "name": "Kamal Bhog",
+    "desc": "cottage cheese made with sugar, corn flour and wheat flour",
+    "page": 40,
+    "cat": "desserts"
+  },
+  {
+    "name": "Kaju Pista Kalash (Extra Cost)",
+    "desc": "cashew nut pistachio pot shaped sweet",
+    "page": 40,
+    "cat": "desserts"
+  },
+  {
+    "name": "Pista Madhuram (Extra Cost)",
+    "desc": "pistachio and cashew nut square size sweet",
+    "page": 40,
+    "cat": "desserts"
+  },
+  {
+    "name": "Basundi",
+    "desc": "rich cream and thick milk flavored with saffron and nuts",
+    "page": 40,
+    "cat": "desserts"
+  },
+  {
+    "name": "Sheera",
+    "desc": "roasted semolina cooked with sugar and ghee",
+    "page": 40,
+    "cat": "desserts"
+  },
+  {
+    "name": "Shrikhand",
+    "desc": "flavored thick yogurt",
+    "page": 40,
+    "cat": "desserts"
+  },
+  {
+    "name": "Lapsi",
+    "desc": "broken wheat cooked with jaggery and nuts",
+    "page": 40,
+    "cat": "desserts"
+  },
+  {
+    "name": "Doodhpak",
+    "desc": "a kind of rice pudding made with milk and almond flakes",
+    "page": 40,
+    "cat": "desserts"
+  },
+  {
+    "name": "Gajar Ki Halwa",
+    "desc": "carrot cooked with sugar and milk",
+    "page": 40,
+    "cat": "desserts"
+  },
+  {
+    "name": "Mango Mousse",
+    "desc": "mango flavored cream",
+    "page": 41,
+    "cat": "desserts"
+  },
+  {
+    "name": "Strawberry Mousse",
+    "desc": "strawberry flavored cream",
+    "page": 41,
+    "cat": "desserts"
+  },
+  {
+    "name": "Fresh Pineapple Mousse",
+    "desc": "fresh pineapple with cream",
+    "page": 41,
+    "cat": "desserts"
+  },
+  {
+    "name": "Chocolate Temptation",
+    "desc": "dark chocolate rich cake",
+    "page": 41,
+    "cat": "desserts"
+  },
+  {
+    "name": "Kopra Paak",
+    "desc": "fresh coconut sugar cake",
+    "page": 41,
+    "cat": "desserts"
+  },
+  {
+    "name": "Milk Cake",
+    "desc": "thick milk and sugar cake",
+    "page": 41,
+    "cat": "desserts"
+  },
+  {
+    "name": "Mysore Pak",
+    "desc": "itis made of generous amounts of ghee, sugar, gram flour, and often cardamom",
+    "page": 41,
+    "cat": "desserts"
+  },
+  {
+    "name": "Coconut Burfi",
+    "desc": "coconut, milk and sugar cake",
+    "page": 41,
+    "cat": "desserts"
+  },
+  {
+    "name": "Western Dessert",
+    "desc": "",
+    "page": 41,
+    "cat": "desserts"
+  },
+  {
+    "name": "Mousse",
+    "desc": "",
+    "page": 41,
+    "cat": "desserts"
+  },
+  {
+    "name": "White Chocolate Cranberry Cheesecake",
+    "desc": "cheesecake décor with cranberry and white chocolate",
+    "page": 42,
+    "cat": "desserts"
+  },
+  {
+    "name": "Orange Panna Cotta",
+    "desc": "sweetened cream thickened with gelatin flavor orange",
+    "page": 42,
+    "cat": "desserts"
+  },
+  {
+    "name": "Lemon Panna Cotta",
+    "desc": "sweetened cream with lemon zest and lemon juice",
+    "page": 42,
+    "cat": "desserts"
+  },
+  {
+    "name": "Strawberry Panna Cotta",
+    "desc": "sweetened cream with strawberry",
+    "page": 42,
+    "cat": "desserts"
+  },
+  {
+    "name": "Lemon Cheesecake",
+    "desc": "lemon flavored cheesecake",
+    "page": 42,
+    "cat": "desserts"
+  },
+  {
+    "name": "Exotic Fruit Cheese Cake",
+    "desc": "cheesecake with exotic fresh fruit",
+    "page": 42,
+    "cat": "desserts"
+  },
+  {
+    "name": "Gateaux",
+    "desc": "",
+    "page": 42,
+    "cat": "desserts"
+  },
+  {
+    "name": "Vanilla Flavored Layered Cake",
+    "desc": "vanilla sponge with rich vanilla cream",
+    "page": 42,
+    "cat": "desserts"
+  },
+  {
+    "name": "Fresh Fruit Gateaux",
+    "desc": "cake décor with fresh fruit",
+    "page": 42,
+    "cat": "desserts"
+  },
+  {
+    "name": "Black Forest Gateaux",
+    "desc": "black forest cake",
+    "page": 42,
+    "cat": "desserts"
+  },
+  {
+    "name": "Cheesecake",
+    "desc": "cheese mix with sugar baked with bottom layer of cookies",
+    "page": 42,
+    "cat": "desserts"
+  },
+  {
+    "name": "Blueberry Cheesecake",
+    "desc": "",
+    "page": 42,
+    "cat": "desserts"
+  },
+  {
+    "name": "Caramel Custard",
+    "desc": "custarddessert with a layer of soft caramel on top",
+    "page": 43,
+    "cat": "desserts"
+  },
+  {
+    "name": "Choco Nut Pudding",
+    "desc": "chocolate cake baked along nuts serve with hot chocolate sauce",
+    "page": 43,
+    "cat": "desserts"
+  },
+  {
+    "name": "Apple And Cherry Pie",
+    "desc": "cooking apple and cherry along with sugar and butter serve with cream or ice cream",
+    "page": 43,
+    "cat": "desserts"
+  },
+  {
+    "name": "Chocolate Orange Tart",
+    "desc": "chocolate ganache baked along with orange zest and juice",
+    "page": 43,
+    "cat": "desserts"
+  },
+  {
+    "name": "Smoked Apple Struddle",
+    "desc": "apple baked along with puff pastry dough",
+    "page": 43,
+    "cat": "desserts"
+  },
+  {
+    "name": "Chocolate Espresso Tart",
+    "desc": "chocolate ganache baked with espresso",
+    "page": 43,
+    "cat": "desserts"
+  },
+  {
+    "name": "Baked Prune Tart",
+    "desc": "rich cream baked with prunes over the tart",
+    "page": 43,
+    "cat": "desserts"
+  },
+  {
+    "name": "Open Apple Blue Berry Tart",
+    "desc": "mixture apple and blueberry baked in the tart",
+    "page": 43,
+    "cat": "desserts"
+  },
+  {
+    "name": "French Apple Tart",
+    "desc": "cheese cake garnish with blueberry",
+    "page": 43,
+    "cat": "desserts"
+  },
+  {
+    "name": "New York Cheesecake",
+    "desc": "mixture of cream cheese and sugar baked at low temperature serve with whip cream",
+    "page": 43,
+    "cat": "desserts"
+  },
+  {
+    "name": "White Chocolate Cranberry Cheesecake",
+    "desc": "cheesecake mix with white chocolate",
+    "page": 43,
+    "cat": "desserts"
+  },
+  {
+    "name": "Pudding",
+    "desc": "",
+    "page": 43,
+    "cat": "desserts"
+  },
+  {
+    "name": "(Mixture Of Apple With Butter, Sugar And Apricot Jam Baked With Tart Base)",
+    "desc": "",
+    "page": 44,
+    "cat": "desserts"
+  },
+  {
+    "name": "Sour Cherry Crumble",
+    "desc": "sour cream and cherry baked with sweet crumble",
+    "page": 44,
+    "cat": "desserts"
+  },
+  {
+    "name": "Open Apple Andraisin Tart",
+    "desc": "raisin cake mixture baked with apple in the tart base",
+    "page": 44,
+    "cat": "desserts"
+  },
+  {
+    "name": "Fruit Trifle",
+    "desc": "trifle pudding with mix fruit custard and whip cream",
+    "page": 44,
+    "cat": "desserts"
+  }
+]

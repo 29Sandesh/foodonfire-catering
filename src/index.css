@@ -1,0 +1,55 @@
+@import url('https://fonts.googleapis.com/css2?family=Alex+Brush&family=Pinyon+Script&family=Italianno&family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&family=EB+Garamond:ital,wght@0,400..800;1,400..800&display=swap');
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  body {
+    @apply bg-[#fef9ef] text-[#1d1c16] font-sans antialiased;
+  }
+
+  h1, h2, h3, h4, h5, h6 {
+    @apply font-serif;
+  }
+}
+
+/* Calligraphy & Script Enforcers */
+.font-script,
+.font-calligraphy {
+  font-family: 'Pinyon Script', 'Alex Brush', cursive !important;
+  font-style: normal;
+  letter-spacing: normal;
+  text-transform: none !important;
+}
+
+/* Custom subtle scrollbars */
+::-webkit-scrollbar {
+  width: 6px;
+  height: 6px;
+}
+::-webkit-scrollbar-track {
+  background: #f5efe4;
+}
+::-webkit-scrollbar-thumb {
+  background: #d0c4b9;
+}
+::-webkit-scrollbar-thumb:hover {
+  background: #a58d70;
+}
+
+/* Card Shuffle Stack Styles */
+.card-stack-item {
+  transition: all 0.6s cubic-bezier(0.16, 1, 0.3, 1);
+}
+
+/* Print Stylesheet for Formal Proposal */
+@media print {
+  header, footer, .floating-cta, nav, button {
+    display: none !important;
+  }
+  body {
+    background: white !important;
+    color: black !important;
+  }
+}
