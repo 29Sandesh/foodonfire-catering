@@ -71,7 +71,7 @@ export const HomePage: React.FC = () => {
       {/* ─────────────────────────────────────────────────────────────────────────────
           1. HERO SECTION (FULL-BLEED CATERING BACKGROUND SLIDESHOW)
           ───────────────────────────────────────────────────────────────────────────── */}
-      <section className="relative min-h-[calc(100vh-5rem)] flex items-center overflow-hidden bg-[#fef9ef] text-[#1d1c16] border-b border-[#d0c4b9]/60 px-4 sm:px-6 lg:px-12 py-12 sm:py-16">
+      <section className="relative min-h-[calc(100vh-5rem)] flex items-center overflow-hidden bg-[#fef9ef] text-[#1d1c16] border-b border-[#d0c4b9]/60 px-5 sm:px-8 lg:px-14 py-12 sm:py-16">
         {/* Full-Bleed Auto-Changing Catering Background Slideshow */}
         <div className="absolute inset-0 z-0 overflow-hidden pointer-events-none select-none">
           {cateringBackgrounds.map((bg, idx) => (
@@ -89,14 +89,24 @@ export const HomePage: React.FC = () => {
             </div>
           ))}
 
-          {/* Editorial Warm Ivory Gradient & Vignette for 100% Text Legibility */}
-          <div className="absolute inset-0 bg-gradient-to-r from-[#fef9ef] via-[#fef9ef]/95 sm:via-[#fef9ef]/85 to-[#fef9ef]/40 lg:to-[#fef9ef]/25" />
-          <div className="absolute inset-0 bg-gradient-to-t from-[#fef9ef] via-transparent to-[#fef9ef]/50" />
+          {/* Editorial Warm Ivory Vignette: Opaque directly behind the left text, rapidly fading to 100% transparent right after the text */}
+          <div 
+            className="absolute inset-0 pointer-events-none hidden md:block"
+            style={{
+              background: 'linear-gradient(to right, #fef9ef 0%, rgba(254, 249, 239, 0.98) 28%, rgba(254, 249, 239, 0.7) 36%, rgba(254, 249, 239, 0.1) 44%, transparent 50%)'
+            }}
+          />
+          <div 
+            className="absolute inset-0 pointer-events-none md:hidden"
+            style={{
+              background: 'linear-gradient(to right, rgba(254, 249, 239, 0.96) 0%, rgba(254, 249, 239, 0.88) 75%, transparent 100%)'
+            }}
+          />
         </div>
 
-        {/* Foreground Content Container */}
-        <div className="relative z-10 max-w-7xl mx-auto w-full">
-          <div className="max-w-2xl lg:max-w-3xl space-y-5 sm:space-y-6">
+        {/* Foreground Content Container shifted to extreme left */}
+        <div className="relative z-10 w-full">
+          <div className="max-w-xl lg:max-w-2xl space-y-5 sm:space-y-6">
             <div className="inline-flex items-center gap-2 px-3 py-1 border border-[#a58d70]/40 bg-[#fef9ef]/80 backdrop-blur-sm text-[#6f5b41] text-[10px] sm:text-xs uppercase tracking-[0.25em]">
               <Flame className="w-3.5 h-3.5 text-[#6f5b41]" />
               <span>Haute Gastronomie • Pan-India</span>
@@ -154,29 +164,6 @@ export const HomePage: React.FC = () => {
                 <p className="text-[10px] uppercase tracking-wider text-stone-600 mt-0.5 font-medium">Custom Formulations</p>
               </div>
             </div>
-          </div>
-        </div>
-
-        {/* Discrete Luxury Slide Counter in Bottom Right */}
-        <div className="absolute bottom-6 right-6 lg:right-12 z-10 flex items-center gap-3 bg-[#1d1c16]/80 backdrop-blur-md px-3.5 py-1.5 border border-[#c5a880]/30 text-white select-none">
-          <span className="text-[10px] uppercase tracking-widest text-[#c5a880] hidden sm:inline">
-            Catering Showcase
-          </span>
-          <span className="text-stone-500 text-xs hidden sm:inline">•</span>
-          <span className="text-xs font-mono text-stone-200">
-            0{currentBgIndex + 1} / 0{cateringBackgrounds.length}
-          </span>
-          <div className="flex items-center gap-1.5 ml-1">
-            {cateringBackgrounds.map((_, i) => (
-              <button
-                key={i}
-                onClick={() => setCurrentBgIndex(i)}
-                aria-label={`View slide ${i + 1}`}
-                className={`h-1.5 transition-all duration-300 pointer-events-auto rounded-none ${
-                  i === currentBgIndex ? 'w-5 bg-[#c5a880]' : 'w-1.5 bg-white/40 hover:bg-white/70'
-                }`}
-              />
-            ))}
           </div>
         </div>
       </section>
